@@ -1,0 +1,34 @@
+/* Style = CSS */
+        /* Estilos a nivel general */
+        * {
+            margin: 10px;
+        }
+        /* Estilos a nivel de elementos */
+        h1 {
+            color: red;
+        }
+        
+        p {
+            color: blue;
+        }
+        /* Estilos a nivel de clase */
+        .parrafos{
+            font-size: 50px;
+        }
+        /* Estilos a nivel de identificadores */
+        #boton2{
+            font-style: italic;
+            font-size: 25px;
+        }
+        #entradita{
+            font-size: 20px;
+        }
+        #pinguinos{
+            width: 350px;
+            height: 350px;
+            border: 8px solid red;
+            margin-left: 10px;
+        }
+        .imagenesVideos{
+            margin: 80px;
+        }
