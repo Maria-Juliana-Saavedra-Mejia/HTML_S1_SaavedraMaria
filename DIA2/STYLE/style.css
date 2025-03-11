@@ -80,6 +80,11 @@ body {
     height: 100px;
     margin-top: 0cm;
 }
+.Captura{
+    width: 80px;
+    height: 100px;
+    margin-top: 0px;
+}
 .infoacademi {
     width: 280px;
     height: 500px;
@@ -95,6 +100,10 @@ body {
 }
 .aca{
     text-align: center;
+}
+.info{
+    margin-left: 10%;
+    margin-right: 10%;
 }
 .habilidades{
     width: 280px;
