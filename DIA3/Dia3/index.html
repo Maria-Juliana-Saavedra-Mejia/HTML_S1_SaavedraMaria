@@ -1,0 +1,139 @@
+<!-- Ejercicio Dia 2 -->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tablas</title>
+    <link rel="stylesheet" href="./style/style.css"/>
+</head>
+
+<body>
+    <ul id="listaPersonalizada">
+        <li> Elemento 1</li>
+        <li> Elemento 2</li>
+        <li> Elemento 3</li>
+        <li> Elemento 4</li>
+      </ul>
+    <!-- Separadores -->
+    <h1>Titulo1</h1>
+    <h2>El contenido del Titulo2</h2>
+    <hr>
+    </hr>
+    <h3>Título3</h3>
+    <hr>
+    </hr>
+    <h3>Título3</h3>
+    <hr>
+    </hr>
+    <h3>Título3</h3>
+    <!-- Tablas -->
+    <table style="border: 2px solid red;">
+        <tr style="border: 2px solid rgb(2, 18, 253);">
+            <td style="border: 2px solid rgb(6, 253, 2);">Fila 1, Columna 1</td>
+            <td style="border: 2px solid rgb(6, 253, 2);">Fila 1, Columna 2</td>
+        </tr>
+        <tr style="border: 2px solid rgb(2, 18, 253);">
+            <td style="border: 2px solid rgb(6, 253, 2);">Fila 2, Columna 1</td>
+            <td style="border: 2px solid rgb(6, 253, 2);">Fila 2, Columna 2</td>
+        </tr>
+
+    </table>
+    <br />
+    <table style="border: 2px solid rgb(0, 94, 255);">
+        <tr>
+            <td style="border: 2px solid rgb(6, 253, 2);">Fila 1, Columna 1</td>
+            <td colspan="3" style="border: 2px solid rgb(6, 253, 2);">Fila 1, Columa 2 y 3</td>
+        </tr>
+        <tr>
+            <td rowspan="2" style="border: 2px solid rgb(77, 2, 253);">
+                <table style="border: 2px solid red;">
+                    <tr style="border: 2px solid rgb(2, 18, 253);">
+                        <td style="border: 2px solid rgb(6, 253, 2);">Fila 1, Columna 1</td>
+                        <td style="border: 2px solid rgb(6, 253, 2);">Fila 1, Columna 2</td>
+                    </tr>
+                    <tr style="border: 2px solid rgb(2, 18, 253);">
+                        <td style="border: 2px solid rgb(6, 253, 2);">Fila 2, Columna 1</td>
+                        <td style="border: 2px solid rgb(6, 253, 2);">Fila 2, Columna 2</td>
+                    </tr>
+
+                </table>
+                <br />
+                <table style="border: 2px solid rgb(255, 140, 0);">
+                    <tr>
+                        <td style="border: 2px solid rgb(6, 253, 2);">Fila 1, Columna 1</td>
+                        <td colspan="3" style="border: 2px solid rgb(6, 253, 2);">Fila 1, Columa 2 y 3</td>
+                    </tr>
+                    <tr>
+                        <td rowspan="2" style="border: 2px solid rgb(253, 228, 2);">Fila 2, Columna 1 y 2</td>
+                        <td style="border: 2px solid rgb(6, 253, 2);">
+                            <h3>Fila 2, Columna 2</h3>
+                        </td>
+                        <td style="border: 2px solid rgb(6, 253, 2);">Fila 2, Columna 3</td>
+                        <td style="border: 2px solid rgb(6, 253, 2);">Fila 2, Columna 4</td>
+                    </tr>
+                    <tr>
+                        <td style="border: 2px solid rgb(253, 2, 245);">Fila 3, Columna 2</td>
+                        <td style="border: 2px solid rgb(253, 2, 245);">Fila 3, Columna 3</td>
+                        <td style="border: 2px solid rgb(253, 2, 245);">Fila 3, Columna 4</td>
+                    </tr>
+                </table>
+            </td>
+            <td style="border: 2px solid rgb(6, 253, 2);">
+                <h3>Fila 2, Columna 2</h3>
+            </td>
+            <td style="border: 2px solid rgb(6, 253, 2);">Fila 2, Columna 3</td>
+            <td style="border: 2px solid rgb(6, 253, 2);">Fila 2, Columna 4</td>
+        </tr>
+        <tr>
+            <td style="border: 2px solid rgb(253, 2, 245);">Fila 3, Columna 2</td>
+            <td style="border: 2px solid rgb(253, 2, 245);">Fila 3, Columna 3</td>
+            <td style="border: 2px solid rgb(253, 2, 245);">Fila 3, Columna 4</td>
+        </tr>
+    </table>
+
+    <!-- Listas -->
+     <!-- ul (Cuando quiero una lista sin orden) -->
+      <!-- ol (Cuando quiero una lista sin orden) -->
+
+      <ul id="listaPersonalizada">
+        <li> Elemento 1</li>
+        <li> Elemento 2</li>
+        <li> Elemento 3</li>
+        <li> Elemento 4</li>
+      </ul>
+      <ol>
+        <li> Elemento 1</li>
+        <li> Elemento 2</li>
+        <li> Elemento 3</li>
+        <li> Elemento 4</li>
+      </ol>
+      <ol start="5">
+        <li> Elemento 5</li>
+        <li> Elemento 6</li>
+        <li> Elemento 7</li>
+        <li> Elemento 8</li>
+      </ol>
+      <ol type="I" start="5">
+        <li> Elemento 5</li>
+        <li> Elemento 6</li>
+        <li> Elemento 7</li>
+        <li> Elemento 8</li>
+      </ol>
+      <ol type="I" start="5" reversed>
+        <li> Elemento 5</li>
+        <li> Elemento 4</li>
+        <li> Elemento 3</li>
+        <li> Elemento 2</li>
+      </ol>
+      <ol  start="5" reversed>
+        <li> Elemento 5</li>
+        <li> Elemento 4</li>
+        <li> Elemento 3</li>
+        <li> Elemento 2</li>
+      </ol>
+</body>
+
+</html>
+<!-- Desarrollado por : Edgar Loprez - C.C:1.656.525.414 -->
