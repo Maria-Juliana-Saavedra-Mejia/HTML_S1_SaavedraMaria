@@ -5,8 +5,8 @@ body {
 }
 
 .foto {
-    width: 250px;
-    height: 250px;
+    width: 260px;
+    height: 260px;
     border-radius: 100%;
     margin: 90px;
     border: 5px solid black;
@@ -168,11 +168,11 @@ body {
 }
 .proyectos {
     width: 250px;
-    height: 1348px;
+    height: 1347px;
     border: 5px solid black;
     margin: 80px;
-    margin-left: 110%;
-    margin-top: -1079px;
+    margin-left: 70%;
+    margin-top: -1375px;
 }
 .p{
     margin-top: 20%;
@@ -180,4 +180,42 @@ body {
 }
 .per{
     text-align: center;
+}
+.stack{
+    text-align: center;
+}
+.proyectosEmpre{
+    text-align: center;
+}
+ul{
+    margin-left: 10%;
+    margin-right: 10%;
+}
+.proyectosEmpre{
+    margin-left: 10%;
+    margin-right: 10%;
+}
+.nom{
+    margin-left: 10%;
+    margin-right: 10%;
+}
+.descripcion{
+    margin-left: 10%;
+    margin-right: 10%;
+}
+.contactos{
+    margin-left: 10%;
+    margin-right: 10%;
+}
+.contace{
+    margin-left: 10%;
+    margin-right: 10%;
+}
+.contac{
+    margin-left: 10%;
+    margin-right: 10%;
+}
+.num{
+    margin-left: 10%;
+    margin-right: 10%;
 }
