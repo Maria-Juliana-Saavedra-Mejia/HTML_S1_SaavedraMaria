@@ -44,7 +44,7 @@ table {
     margin-left: 10%;
     margin-right: 10%;
 }
-
+habil
 .Git {
     margin-left: 10%;
     margin-right: 10%;
@@ -217,4 +217,7 @@ ul{
 .num{
     margin-left: 10%;
     margin-right: 10%;
+}
+.Habilidades{
+    border: 5px solid black;
 }
