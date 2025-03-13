@@ -1,6 +1,6 @@
 # Formulario de registro - Mi web
 
-En este repositorio se encuentra el trabajo de proyecto de vida creado por la Camper Maria Juliana Saavedra Mejia en HTML y CSS.
+En este repositorio se encuentra el trabajo de formulario registro creado por la Camper Maria Juliana Saavedra Mejia en HTML y CSS.
 
 
 | Modulo | Contenido |
