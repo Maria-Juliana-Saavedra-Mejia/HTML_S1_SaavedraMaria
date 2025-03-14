@@ -1,0 +1,19 @@
+/* CSS */
+/* Cascading Style Sheets - Hojas de estilo en cascada */
+
+h1/* Selector */{
+    /*Declaraciones*/
+    /*Propiedad:Valor*/
+    color: blue;
+    font-size: 12px;
+
+    
+}
+h2{
+    color:rgb(0, 153, 255);
+}
+texto{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    
+    
+}

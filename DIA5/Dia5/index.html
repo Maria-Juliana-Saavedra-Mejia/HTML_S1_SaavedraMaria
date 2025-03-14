@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<!-- HTML/CSS- INTRO A CSS -->
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mis Estilos</title>
+    <!-- Hay 3 maneras de utilizar o implementar un CSS-->
+    <!-- 1. Implementado mediante un archivo CSS externo modularizado-->
+    <link rel="stylesheet" href="./styles/style.css">
+    <!--2. Bloque de estilos-->
+    <style>
+        h2 {
+            color: rgb(0, 0, 0);
+        }
+
+        .container {
+            color: green;
+            /*Propiedad heredable*/
+            border: 1px solid red;
+            /*Propiedad no heredable*/
+        }
+
+        /*Priorización de estilos*/
+        
+        .text {
+            color: blue!important;
+        }
+        /*Aplicación de reglas en estilos*/
+        .text {
+            color: rgb(255, 0, 187)!important;
+        }
+        .text {
+            color: red ;
+        }
+        .text{
+            padding: 8px;/*Espacio alrededor del contenido*/
+            color: blue;
+            background-color: rgb(0, 43, 103);
+        }
+        /*Orden de aparición*/
+        /*Elemento -> Clase -> ID*/
+        div{color:red;}
+        #element{color:rgb(113, 113, 111);}
+        .block{color:lavender;}
+        /*Variable de estilos*/
+        :root{
+            --background-color:black;
+        }
+        body{
+            background-color: var(--background-color);
+        }
+    </style>
+</head>
+
+<body>
+
+    <h1>Holiiii</h1>
+    <h2>Holiii2</h2>
+    <!-- 3. Estilos directamente en línea -->
+    <h3 style="color:magenta">Holiii3</h3>
+    <!--Análisis de propiedades de estilos heredables
+     y no heredables-->
+    <div class="container">
+        <p>Texto del padre</p>
+        <div class="child">
+            <p>Texto del hijo</p>
+        </div>
+    </div>
+    <div class="text">
+        <texto>Texto del elemento</texto>  
+    </div>
+    <div id="element" class="block">Texto del elemento 2</div>
+</body>
+
+</html>
+<!-- Desarrollado por : Edgar Loprez - C.C:1.656.525.414 -->
