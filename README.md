@@ -23,11 +23,11 @@ Se encuentra el README con informacion importantew sobre los temas vistos en cla
 > [**Dia2**]
 Se encuentra el proyecto de vida.
 
-> [*Dia3**]
+> [**Dia3**]
 Se encuentra el proyecto de vida pero realizado con tablas.
 
-> [*Dia4**]
+> [**Dia4**]
 Se encuentra el trabajo de formulario registro.
 
-> [*Dia5**]
+> [**Dia5**]
 Se encuentra el trabajo de HTML - INTRO CSS.
