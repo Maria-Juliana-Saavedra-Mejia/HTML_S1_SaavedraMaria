@@ -310,34 +310,39 @@ p{
     position: absolute;
     top: 4088px;
     left: 600px;
-    font-size: 20px;
+    font-size: 25px;
+    font-family:  "AmazonEmberligth", sans-serif;
 }
 .fin2{
     position: absolute;
     top: 4088px;
-    left: 750px;
-    font-size: 20px;
+    left: 780px;
+    font-size: 25px;
+    font-family:  "AmazonEmberligth", sans-serif;
 
 }
 
 .fin3{
     position: absolute;
     top: 4088px;
-    left: 900px;
-    font-size: 20px;
+    left: 950px;
+    font-size: 25px;
+    font-family:  "AmazonEmberligth", sans-serif;
 }
 
 .fin4{
     position: absolute;
     top: 4088px;
     left: 1200px;
-    font-size: 20px;
+    font-size: 25px;
+    font-family:  "AmazonEmberligth", sans-serif;
 }
 
 .fin5{
     position: absolute;
     top: 4088px;
     left: 1298px;
-    font-size: 20px;
+    font-size: 25px;
+    font-family:  "AmazonEmberligth", sans-serif;
 }
 
