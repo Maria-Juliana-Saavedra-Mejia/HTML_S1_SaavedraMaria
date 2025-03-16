@@ -1,0 +1,226 @@
+@font-face {
+    font-family: 'Amazon Ember';
+    src: url('./fuentes/Amazon\ Ember\ Bold.ttf') format('truetype'); /*Bold*/
+    font-weight: 300;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Amazon Ember';
+    src: url('./fuentes/Amazon\ Ember\ Cd\ RC\ Light.ttf') format('truetype'); /* Light */
+    font-weight: 300;
+    font-style: normal;
+}
+
+
+
+:root{
+    --background-color:black;
+}
+body{
+    background-color: var(--background-color);
+    width: 1920px;
+    height: 4149px;
+    background-color: black;
+}
+p{
+    position: absolute ;
+    color: white;
+}
+.parte1{
+    margin-top: 0px;
+    margin-left: 0px;
+    width: 1920px;
+    height: 1080px;
+}
+.fondo{
+    position: absolute;
+    margin-top: 0px;
+    margin-left: 0px;
+    width: 1920px;
+    height: 1080px;
+}
+.lupa{
+    position: absolute;
+    margin-top: 37px;
+    margin-left: 63px;
+    width: 36px;
+    height: 36px;
+}
+.login{
+    position: absolute;
+    margin-top: 30px;
+    margin-left: 1695px;
+    width: 205px;
+    height: 54px;
+}
+
+.log{
+    position: absolute;
+    margin-top: 48px;
+    margin-left: 1773px;
+    width: 50px;
+    height: 20px;
+}
+
+.logo{
+    position: absolute;
+    margin-top: 226px;
+    margin-left: 682px;
+    width: 556px;
+    height: 313px;
+}
+.sign{
+    position: absolute;
+    margin-top: 755px;
+    margin-left: 730px;
+    width: 458px;
+    height: 104px;
+    filter: opacity(1);
+
+}
+.singup{
+    position: absolute;
+    margin-top: 787px;
+    margin-left: 780px;
+    color: black;
+    font-size: 40px;
+}
+
+#primer{
+    position: absolute;
+    margin-top: 517px;
+    margin-left: 389px;
+    color: white;
+    text-align: center;
+}
+#segundo{
+    position: absolute;
+    margin-top: 608px;
+    margin-left: 380px;
+    color: white;
+    text-align: center;
+}
+
+
+.div2{
+    position: absolute;
+    top: 1106px;
+    margin-left: 64px;
+    width: 1792px;
+    height: 567px;
+}
+.div3{
+    position: absolute;
+    top: 1717px;
+    left: 64px;
+    width: 1792px;
+    height: 724px;
+}
+.i1{
+    position: absolute;
+    top: 1896px;
+    left: 477px;
+    width: 181px;
+    height: 309px;
+}
+.i2{
+    position: absolute;
+    top: 1896px;
+    left: 670px;
+    width: 181px;
+    height: 309px;
+}
+.i3{
+    position: absolute;
+    top: 1896px;
+    left: 863px;
+    width: 180px;
+    height: 309px;
+}
+.i4{
+    position: absolute;
+    top: 1896px;
+    left: 1055px;
+    width: 181px;
+    height: 309px;
+}
+.i5{
+    position: absolute;
+    top: 1896px;
+    left: 1248px;
+    width: 181px;
+    height: 309px;
+}
+
+.iphone{
+    position: absolute;
+    margin-top: 3606px;
+    margin-left: 386px;
+    width: 256px;
+    height: 219px;
+}
+.mac{
+    position: absolute;
+    margin-top: 3440px;
+    margin-left: 685px;
+    width: 584px;
+    height: 534px;
+}
+.pc{
+    position: absolute;
+    margin-top: 3587px;
+    margin-left: 1261px;
+    width: 271px;
+    height: 238px;
+}
+.flecha{
+    position: absolute;
+    margin-top: 3689px;
+    margin-left: 305px;
+    width: 19px;
+    height: 27px;
+}
+.flecha2{
+    position: absolute;
+    margin-top: 3689px;
+    margin-left: 1575px;
+    width: 19px;
+    height: 27px;
+    transform: rotate(180deg);
+}
+.fin1{
+    position: absolute;
+    margin-top: 4088px;
+    margin-left: 600px;
+    font-size: 20px;
+    font-style: Amazon Ember Bold;
+}
+.fin2{
+    position: absolute;
+    margin-top: 4088px;
+    margin-left: 750px;
+    font-size: 20px;
+
+}
+
+.fin3{
+    position: absolute;
+    margin-top: 4088px;
+    margin-left: 900px;
+    font-size: 20px;
+}
+
+.fin4{
+    position: absolute;
+    margin-top: 4088px;
+    margin-left: 1200px;
+    font-size: 20px;
+}
+
+.fin5{
+    position: absolute;
+    margin-top: 4088px;
+    margin-left: 1298px;
+    font-size: 20px;
+}
+
