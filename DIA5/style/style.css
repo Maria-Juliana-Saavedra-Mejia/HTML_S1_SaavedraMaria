@@ -53,10 +53,11 @@ p{
 
 .log{
     position: absolute;
-    top: 48px;
-    left: 1773px;
-    width: 50px;
-    height: 20px;
+    top: 24px;
+    left: 1770px;
+    font-family: "AmazonEmberligth", sans-serif;
+    font-size: 20px;
+    color: black;
 }
 
 .logo{
@@ -96,12 +97,33 @@ p{
 }
 #segundo{
     position: absolute;
-    top: 608px;
+    top: 580px;
+    left: 444px;
+    right: 500px; 
+    color: white;
+    text-align: center ;
+    font-family: "AmazonEmberligth", sans-serif;
+    font-size: 30px;
+
+}
+#tercero{
+    position: absolute;
+    top: 620px;
     left: 380px;
     color: white;
     text-align: center;
+    font-size: 30px;
+    font-family:  "AmazonEmberligth", sans-serif;
 }
-
+#love{
+    position: absolute;
+    top: 660px;
+    right: 940px;
+    color: white;
+    text-align: center;
+    font-size: 30px;
+    font-family:  "AmazonEmberligth", sans-serif;
+}
 
 .div2{
     position: absolute;
@@ -152,6 +174,33 @@ p{
     width: 181px;
     height: 309px;
 }
+.text1{
+    position: absolute;
+    top: 1710px;
+    left: 135px;
+    color: white;
+    text-align: center;
+    font-size: 60px;
+    font-family: "AmazonEmberBold", sans-serif;
+}
+.text2{
+    position: absolute;
+    top: 2245px;
+    right: 500px;
+    color: white;
+    text-align: center;
+    font-size: 45px;
+    font-family:  "AmazonEmberligth", sans-serif;
+}
+.text3{
+    position: absolute;
+    top: 2295px;
+    right: 300px;
+    color: white;
+    text-align: center;
+    font-size: 45px;
+    font-family:  "AmazonEmberligth", sans-serif;
+}
 .div4{
     position: absolute;
     top: 2467px;
@@ -167,7 +216,42 @@ p{
     width: 169px;
     height: 169px;
 }
-
+.text4{
+    position: absolute;
+    top: 2450px;
+    right: 600px;
+    color: white;
+    text-align: center;
+    font-size: 60px;
+    font-family:  "AmazonEmberBold", sans-serif;
+}
+.text5{
+    position: absolute;
+    top: 2850px;
+    right: 300px;
+    color: white;
+    text-align: center;
+    font-size: 40px;
+    font-family:  "AmazonEmberligth", sans-serif;
+}
+.text6{
+    position: absolute;
+    top: 2900px;
+    right: 900px;
+    color: white;
+    text-align: center;
+    font-size: 40px;
+    font-family:  "AmazonEmberligth", sans-serif;
+}
+.dev{
+    position: absolute;
+    top: 2990px;
+    right: 400px;
+    color: white;
+    text-align: center;
+    font-size: 125px;
+    font-family:  "AmazonEmberligth", sans-serif;
+}
 .iphone{
     position: absolute;
     top: 3606px;
@@ -203,6 +287,24 @@ p{
     width: 19px;
     height: 27px;
     transform: rotate(180deg);
+}
+.text7{
+    position: absolute;
+    top: 3280px;
+    right: 150px;
+    color: white;
+    text-align: center;
+    font-size: 45px;
+    font-family:  "AmazonEmberligth", sans-serif;
+}
+.text8{
+    position: absolute;
+    top: 3340px;
+    right: 750px;
+    color: white;
+    text-align: center;
+    font-size: 45px;
+    font-family:  "AmazonEmberligth", sans-serif;
 }
 .fin1{
     position: absolute;
