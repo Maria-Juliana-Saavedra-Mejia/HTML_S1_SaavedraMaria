@@ -26,53 +26,48 @@ p{
     position: absolute ;
     color: white;
 }
-.parte1{
-    margin-top: 0px;
-    margin-left: 0px;
-    width: 1920px;
-    height: 1080px;
-}
+
 .fondo{
     position: absolute;
-    margin-top: 0px;
-    margin-left: 0px;
+    top: 0px;
+    left: 0px;
     width: 1920px;
     height: 1080px;
 }
 .lupa{
     position: absolute;
-    margin-top: 37px;
-    margin-left: 63px;
+    top: 37px;
+    left: 63px;
     width: 36px;
     height: 36px;
 }
 .login{
     position: absolute;
-    margin-top: 30px;
-    margin-left: 1695px;
+    top: 30px;
+    left: 1695px;
     width: 205px;
     height: 54px;
 }
 
 .log{
     position: absolute;
-    margin-top: 48px;
-    margin-left: 1773px;
+    top: 48px;
+    left: 1773px;
     width: 50px;
     height: 20px;
 }
 
 .logo{
     position: absolute;
-    margin-top: 226px;
-    margin-left: 682px;
+    top: 226px;
+    left: 682px;
     width: 556px;
     height: 313px;
 }
 .sign{
     position: absolute;
-    margin-top: 755px;
-    margin-left: 730px;
+    top: 755px;
+    left: 730px;
     width: 458px;
     height: 104px;
     filter: opacity(1);
@@ -80,23 +75,23 @@ p{
 }
 .singup{
     position: absolute;
-    margin-top: 787px;
-    margin-left: 780px;
+    top: 750px;
+    left: 780px;
     color: black;
     font-size: 40px;
 }
 
 #primer{
     position: absolute;
-    margin-top: 517px;
-    margin-left: 389px;
+    top: 517px;
+    left: 389px;
     color: white;
     text-align: center;
 }
 #segundo{
     position: absolute;
-    margin-top: 608px;
-    margin-left: 380px;
+    top: 608px;
+    left: 380px;
     color: white;
     text-align: center;
 }
@@ -105,7 +100,7 @@ p{
 .div2{
     position: absolute;
     top: 1106px;
-    margin-left: 64px;
+    left: 64px;
     width: 1792px;
     height: 567px;
 }
@@ -151,76 +146,91 @@ p{
     width: 181px;
     height: 309px;
 }
+.div4{
+    position: absolute;
+    top: 2467px;
+    left: 64px;
+    width: 1792px;
+    height: 567px;
+
+}
+.equis{
+    position: absolute;
+    top: 2650px;
+    left: 876px;
+    width: 169px;
+    height: 169px;
+}
 
 .iphone{
     position: absolute;
-    margin-top: 3606px;
-    margin-left: 386px;
+    top: 3606px;
+    left: 386px;
     width: 256px;
     height: 219px;
 }
 .mac{
     position: absolute;
-    margin-top: 3440px;
-    margin-left: 685px;
+    top: 3440px;
+    left: 685px;
     width: 584px;
     height: 534px;
 }
 .pc{
     position: absolute;
-    margin-top: 3587px;
-    margin-left: 1261px;
+    top: 3587px;
+    left: 1261px;
     width: 271px;
     height: 238px;
 }
 .flecha{
     position: absolute;
-    margin-top: 3689px;
-    margin-left: 305px;
+    top: 3689px;
+    left: 305px;
     width: 19px;
     height: 27px;
 }
 .flecha2{
     position: absolute;
-    margin-top: 3689px;
-    margin-left: 1575px;
+    top: 3689px;
+    left: 1575px;
     width: 19px;
     height: 27px;
     transform: rotate(180deg);
 }
 .fin1{
     position: absolute;
-    margin-top: 4088px;
-    margin-left: 600px;
+    top: 4088px;
+    left: 600px;
     font-size: 20px;
     font-style: Amazon Ember Bold;
 }
 .fin2{
     position: absolute;
-    margin-top: 4088px;
-    margin-left: 750px;
+    top: 4088px;
+    left: 750px;
     font-size: 20px;
 
 }
 
 .fin3{
     position: absolute;
-    margin-top: 4088px;
-    margin-left: 900px;
+    top: 4088px;
+    left: 900px;
     font-size: 20px;
 }
 
 .fin4{
     position: absolute;
-    margin-top: 4088px;
-    margin-left: 1200px;
+    top: 4088px;
+    left: 1200px;
     font-size: 20px;
 }
 
 .fin5{
     position: absolute;
-    margin-top: 4088px;
-    margin-left: 1298px;
+    top: 4088px;
+    left: 1298px;
     font-size: 20px;
 }
 
