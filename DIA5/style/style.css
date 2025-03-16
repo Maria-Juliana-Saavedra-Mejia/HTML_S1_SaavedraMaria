@@ -1,13 +1,15 @@
 @font-face {
-    font-family: 'Amazon Ember';
-    src: url('./fuentes/Amazon\ Ember\ Bold.ttf') format('truetype'); /*Bold*/
-    font-weight: 300;
-    font-style: normal;
+  
+    font-family: "AmazonEmberBold";
+    src: url('./fuentes/AmazonEmberBold.ttf')  format("opentype"),; /* Bold */        
+    font-weight: bold;
+    font-style: normal;
+
 }
 @font-face {
-    font-family: 'Amazon Ember';
-    src: url('./fuentes/Amazon\ Ember\ Cd\ RC\ Light.ttf') format('truetype'); /* Light */
-    font-weight: 300;
+    font-family: "AmazonEmberLigth";
+    src: url('./fuentes/AmazonEmberLight.ttf')  format("opentype"); /* Light */
+    font-weight: lighter;
     font-style: normal;
 }
 
@@ -59,7 +61,7 @@ p{
 
 .logo{
     position: absolute;
-    top: 226px;
+    top: 227px;
     left: 682px;
     width: 556px;
     height: 313px;
@@ -75,18 +77,23 @@ p{
 }
 .singup{
     position: absolute;
-    top: 750px;
+    top: 740px;
     left: 780px;
     color: black;
     font-size: 40px;
+    font-weight: inherit;
+    font-family: "AmazonEmberLigth";
 }
 
 #primer{
     position: absolute;
-    top: 517px;
+    top: 450px;
     left: 389px;
     color: white;
     text-align: center;
+    font-family: ;
+    font-size: 60px;
+    font-family: "AmazonEmberBold", sans-serif;
 }
 #segundo{
     position: absolute;
@@ -203,7 +210,6 @@ p{
     top: 4088px;
     left: 600px;
     font-size: 20px;
-    font-style: Amazon Ember Bold;
 }
 .fin2{
     position: absolute;
