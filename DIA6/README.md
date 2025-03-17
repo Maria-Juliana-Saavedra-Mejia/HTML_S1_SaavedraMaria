@@ -5,10 +5,11 @@ En este repositorio se encuentra el trabajo HTML - INTRO CSS creado por la Campe
 
 | Modulo | Contenido |
 |--|--|
-| index |https://github.com/Maria-Juliana-Saavedra-Mejia/HTML_S1_SaavedraMaria/blob/master/DIA5/index.html|
-| Imágenes |https://github.com/Maria-Juliana-Saavedra-Mejia/HTML_S1_SaavedraMaria/tree/master/DIA5/img|
-| Style |https://github.com/Maria-Juliana-Saavedra-Mejia/HTML_S1_SaavedraMaria/tree/master/DIA5/style|
-| Link Pagina |https://maria-juliana-saavedra-mejia.github.io/HTML_S1_SaavedraMaria/DIA5/|
+| index |https://github.com/Maria-Juliana-Saavedra-Mejia/HTML_S1_SaavedraMaria/blob/master/DIA6/index.html|
+| Imágenes |https://github.com/Maria-Juliana-Saavedra-Mejia/HTML_S1_SaavedraMaria/tree/master/DIA6/img|
+| Style |https://github.com/Maria-Juliana-Saavedra-Mejia/HTML_S1_SaavedraMaria/tree/master/DIA6/style|
+| Style |https://github.com/Maria-Juliana-Saavedra-Mejia/HTML_S1_SaavedraMaria/tree/master/DIA6/fuentes|
+| Link Pagina |https://maria-juliana-saavedra-mejia.github.io/HTML_S1_SaavedraMaria/DIA6/|
 
 # **Instalación**
 
@@ -24,3 +25,6 @@ Se encuentra la carpeta en la que hay cada una de las imágenes usadas en el pro
 
 > [**Style**]
 Se encuentra el código de CSS.
+
+> [**Fuentes**]
+Se encuentra la tipografia usada en el proyecto.
