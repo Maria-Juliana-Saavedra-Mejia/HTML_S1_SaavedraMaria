@@ -1,0 +1,116 @@
+@font-face {
+    font-family: 'letrica';
+    src: url('../font/letricaLight.ttf');
+}
+
+
+
+#rcorners1 {
+    font-family: 'letrica';
+    font-size: 20px;
+    /*Cambio de color hacia la letra*/
+    color: rgb(0, 0, 0);
+    /*Cambio de color hacia el fondo del contenedor*/
+    background-image: url('../image/marmotaHorizontal.png');
+    background-position: bottom 100px top 18px;
+    text-align: center;
+    border-radius: 52px;
+    border: 1px solid black;
+    padding: 20px;
+    width: 200px;
+    height: 15px;
+}
+@keyframes example {
+    
+    to {background-image: url('../image/marmot_screaming-wallpaper-3840x2160.jpg');}
+  }
+#rcorners1:hover{
+    animation: example;
+    animation-duration: 4s;
+}
+#rcorners2 {
+    font-family: 'letrica';
+    font-size: 20px;
+    /*Cambio de color hacia la letra*/
+    color: rgb(0, 0, 0);
+    /*Cambio de opacidad mediante canales alfa*/
+    background-color: rgba(0, 243, 105, 1);
+    background-position: bottom 100px top 18px;
+    text-align: center;
+    border-radius: 52px;
+    border: 1px solid black;
+    padding: 20px;
+    width: 200px;
+    height: 15px;
+}
+
+#rcorners3 {
+    font-family: 'letrica';
+    font-size: 20px;
+    /*Cambio de color hacia la letra*/
+    color: rgb(0, 0, 0);
+    /*Uso de gradiantes*/
+    background-image: linear-gradient(to right,blue,red,rgb(118, 32, 113),purple);
+    background-position: bottom 100px top 18px;
+    text-align: center;
+    border-radius: 52px;
+    border: 1px solid black;
+    padding: 20px;
+    width: 200px;
+    height: 15px;
+}
+#rcorners4 {
+    font-family: 'letrica';
+    font-size: 20px;
+    /*Cambio de color hacia la letra*/
+    color: rgb(0, 0, 0);
+    /*Uso de gradiantes*/
+    background-image: radial-gradient(red, yellow, green);
+
+    background-position: bottom 100px top 18px;
+    text-align: center;
+    border-radius: 52px;
+    border: 1px solid black;
+    padding: 20px;
+    width: 200px;
+    height: 15px;
+}
+#rcorners5 {
+    font-family: 'letrica';
+    font-size: 20px;
+    /*Cambio de color hacia la letra*/
+    color: rgb(0, 0, 0);
+    /*Uso de gradiantes*/
+    background-image: conic-gradient(red, yellow, green);
+    background-position: bottom 100px top 18px;
+    text-align: center;
+    border-radius: 52px;
+    border: 1px solid black;
+    padding: 20px;
+    width: 200px;
+    height: 15px;
+}
+#rcorners6 {
+    font-family: 'letrica';
+    font-size: 20px;
+    /*Cambio de color hacia la letra*/
+    color: rgb(0, 0, 0);
+    /*Uso de gradiantes*/
+    background-image: url('../image/marmotaHorizontal.png');
+    background-repeat: repeat;
+    background-size: contain;
+    background-attachment: scroll;
+    background-position: bottom 100px top 18px;
+    text-align: center;
+    border-radius: 52px;
+    border: 1px solid black;
+    padding: 20px;
+    width: 200px;
+    height: 150px;
+}
+
+#letricaFea {
+    position: absolute;
+    top: 76px;
+    left: 41px;
+}
