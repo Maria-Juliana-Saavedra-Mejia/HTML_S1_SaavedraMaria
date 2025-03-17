@@ -9,7 +9,7 @@
 @font-face {
     font-family: "AmazonEmberLigth";
     src: url('./fuentes/AmazonEmberLight.ttf')  format("opentype"); /* Light */
-    font-weight: lighter;
+    font-weight: normal;
     font-style: normal;
 }
 
