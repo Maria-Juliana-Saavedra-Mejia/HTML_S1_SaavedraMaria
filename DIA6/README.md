@@ -8,7 +8,7 @@ En este repositorio se encuentra el trabajo HTML - INTRO CSS creado por la Campe
 | index |https://github.com/Maria-Juliana-Saavedra-Mejia/HTML_S1_SaavedraMaria/blob/master/DIA6/index.html|
 | Imágenes |https://github.com/Maria-Juliana-Saavedra-Mejia/HTML_S1_SaavedraMaria/tree/master/DIA6/img|
 | Style |https://github.com/Maria-Juliana-Saavedra-Mejia/HTML_S1_SaavedraMaria/tree/master/DIA6/style|
-| Style |https://github.com/Maria-Juliana-Saavedra-Mejia/HTML_S1_SaavedraMaria/tree/master/DIA6/fuentes|
+| Fuentes |https://github.com/Maria-Juliana-Saavedra-Mejia/HTML_S1_SaavedraMaria/tree/master/DIA6/fuentes|
 | Link Pagina |https://maria-juliana-saavedra-mejia.github.io/HTML_S1_SaavedraMaria/DIA6/|
 
 # **Instalación**
