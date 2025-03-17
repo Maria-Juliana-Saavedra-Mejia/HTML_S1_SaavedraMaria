@@ -10,7 +10,7 @@ En este repositorio se encuentran todos los trabajos y anotaciones de la estudia
 | DIA3 |https://github.com/Maria-Juliana-Saavedra-Mejia/HTML_S1_SaavedraMaria/tree/master/DIA3|
 | DIA4 |https://github.com/Maria-Juliana-Saavedra-Mejia/HTML_S1_SaavedraMaria/tree/master/DIA4|
 | DIA5 |https://github.com/Maria-Juliana-Saavedra-Mejia/HTML_S1_SaavedraMaria/tree/master/DIA5|
-| DIA5 |https://github.com/Maria-Juliana-Saavedra-Mejia/HTML_S1_SaavedraMaria/tree/master/DIA6|
+| DIA6 |https://github.com/Maria-Juliana-Saavedra-Mejia/HTML_S1_SaavedraMaria/tree/master/DIA6|
 
 # **Instalación**
 
