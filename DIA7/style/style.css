@@ -7,3 +7,51 @@
     src: url(../fuentes/OpenSans-SemiBold.ttf);
 }
 
+.pagina1{
+    right: 0px;
+    top: 0px;
+    width: 1600px;
+    height: 1200px;
+    background-image: linear-gradient(#FFFFFF, #E6E6E6, #808080);
+    position: absolute;
+}
+.pagina1__metrolinea{
+    position: absolute;
+    top: 200px;
+    left: 100px;
+    width: 1400px;
+    height: 800px;
+    border: 1px solid #707070;
+    background-color: white;
+
+}
+.pagina2__metrolinea{
+    position: absolute;
+    top: 200px;
+    left: 1389px;
+    width: 110px;
+    height: 800px;
+    background-color: #000000;
+    border: 1px solid #000000;
+
+}
+.pagina1__metrolinea--logo{
+    position: absolute;  
+    top: 43px;
+    left: 43px;
+    width: 196px;
+    height: 44px;
+}
+.pagina1__metrolinea--tarjeta{
+    position: absolute; 
+    top: 112px;
+    left: 127px;
+    width: 884px;
+    height: 497px;
+}
+
+
+
+
+
+
