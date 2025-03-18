@@ -38,4 +38,4 @@ Se encuentra el trabajo de HTML - INTRO CSS.
 Se encuentra la corrección del trabajo de HTML - INTRO CSS.
 
 > [**Dia7**]
-Se encuentra el trabajo deHTML - SELECTORES
+Se encuentra el trabajo de HTML - SELECTORES
