@@ -1,0 +1,59 @@
+/* Selectores a nivel de elementos*/
+div {
+    background-color: rgb(230, 109, 109);
+}
+
+#division1 {
+    background-color: aqua;
+}
+
+.clasico {
+    background-color: green;
+    color: white;
+}
+
+.devolver {
+    background-color: orange;
+    color: rgb(0, 0, 0);
+}
+
+/* "En los elementos button con clase "clasico" accionar los diferentes
+estilos"*/
+button.clasico {
+    background-color: rgb(0, 47, 255);
+
+}
+
+/* "En los elementos button con clase "devolver","clasico" y"primario" accionar 
+los diferentes estilos"*/
+button.devolver.clasico.primario {
+    background-color: rgb(0, 255, 208);
+    border: 2px solid red;
+
+}
+
+/* Aplicación de pseudoclases*/
+button.devolver.clasico.primario:hover {
+    background-color: beige;
+
+}
+
+/* A todos los botones con atributo "disabled" aplicar los siguientes
+estilos*/
+button[disabled] {
+    background-color: rgb(164, 255, 182);
+}
+
+.clase1__texto--uppercase {
+    text-transform: uppercase;
+}
+
+.menu .options ul li a {
+    color: orange;
+}
+
+/*Modificadores a nivel de jerarquía*/
+p:first-child {
+    color: red;
+    font-weight: bold;
+}

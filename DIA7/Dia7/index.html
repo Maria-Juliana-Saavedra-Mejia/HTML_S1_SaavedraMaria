@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Manejo de Selectores</title>
+    <link rel="stylesheet" href="./style/style.css">
+</head>
+
+<body>
+    <div>
+        <h1>Holi</h1>
+    </div>
+    <div id="division1">
+        <h1>Estrellita</h1>
+    </div>
+    <button class="clasico">
+        Botón 1
+    </button>
+    <button class="clasico">
+        Botón 2
+    </button>
+    <button class="clasico">
+        Botón 3
+    </button>
+    <button class="devolver">
+        Volver
+    </button>
+    <button class="devolver clasico">
+        Volver 2
+    </button>
+    <button class="devolver clasico primario">
+        Volver 3
+    </button>
+    <!-- Selectores de atributos-->
+    <button disabled>
+        Volver 3
+    </button>
+    <!--Metodología BEM-->
+    <!--1. Procurar que las divisiones tengan una clase diferenciadora-->
+    <div class="clase1">
+        <!--2. Procurar que los elementos pertenecientes a una división
+        tengan un identificador único de acuerdo a su propósito. Su
+        sintáxis es clasepadre__proposito-->
+        <span class="clase1__texto">
+            <!-- -->
+            <h1 class="clase1__texto--uppercase">Aqui está mi título</h1>
+        </span>
+
+    </div>
+    <div class="menu">
+        <div class="options">
+            <ul>
+                <li><a href="/one">Option 1</a></li>
+                <li><a href="/two">Option 2</a></li>
+                <li><a href="/three">Option 3</a></li>
+            </ul>
+        </div>
+
+    </div>
+    <ul>
+        <li><a href="/one">Option 1</a></li>
+        <li><a href="/two">Option 2</a></li>
+        <li><a href="/three">Option 3</a></li>
+    </ul>
+    <div>
+        <p>Este es el primer párrafo.</p>
+        <p>Este es el segundo párrafo.</p>
+        <p>Este es el tercer párrafo.</p>
+    </div>
+</body>
+
+</html>
