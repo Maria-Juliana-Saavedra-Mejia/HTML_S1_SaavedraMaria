@@ -1,19 +1,17 @@
 @font-face {
   
     font-family: "AmazonEmberBold";
-    src: url('./fuentes/AmazonEmberBold.ttf')  format("opentype"),; /* Bold */        
+    src: url('../fuentes/AmazonEmberBold.ttf')  format("opentype"),; /* Bold */        
     font-weight: bold;
     font-style: normal;
 
 }
 @font-face {
     font-family: "AmazonEmberLigth";
-    src: url('./fuentes/AmazonEmberLight.ttf')  format("opentype"); /* Light */
+    src: url('../fuentes/AmazonEmberLight.ttf')  format("opentype"); /* Light */
     font-weight: normal;
     font-style: normal;
 }
-
-
 
 :root{
     --background-color:black;
@@ -29,35 +27,34 @@ p{
     color: white;
 }
 
-.fondo{
+.fondo{ /* fondo de diferentes peliculas y deportes */       
     position: absolute;
     top: 0px;
     left: 0px;
     width: 1920px;
     height: 1080px;
 }
-.lupa{
+.lupa{ /* lupa para busqueda */       
     position: absolute;
     top: 37px;
     left: 63px;
     width: 36px;
     height: 36px;
 }
-.login{
-    position: absolute;
-    top: 30px;
-    left: 1695px;
-    width: 205px;
-    height: 54px;
-}
 
-.log{
+.log{ /* texto login */       
     position: absolute;
-    top: 24px;
-    left: 1770px;
+    text-align: center;
+    top: 10px;
+    left: 1695px;
     font-family: "AmazonEmberligth", sans-serif;
     font-size: 20px;
     color: black;
+    border-radius: 52px;
+    padding: 20px;
+    background-color: white;
+    width: 160px;
+    height: 15px;
 }
 
 .logo{
@@ -78,12 +75,19 @@ p{
 }
 .singup{
     position: absolute;
-    top: 740px;
-    left: 780px;
+    top: 710px;
+    left: 730px;
     color: black;
     font-size: 40px;
     font-weight: inherit;
     font-family: "AmazonEmberLigth";
+    text-align: center;
+    border-radius: 52px;
+    background-color: white;
+    padding: 20px;
+    width: 420px;
+    height: 67px;
+
 }
 
 #primer{
@@ -124,6 +128,48 @@ p{
     font-size: 30px;
     font-family:  "AmazonEmberligth", sans-serif;
 }
+.parte2{
+    position: absolute;
+    top: 1086px;
+    left: 64px;
+    width: 1792px;
+    height: 367px;
+    width: 1752px;
+    height: 567px;
+    border-radius: 100px;
+    background-color: rgb(35, 165, 224);
+    padding: 20px;
+}
+.tv{
+    position: absolute;
+    top: 200px;
+    left: 700px;
+    width: 350px;
+    height: 250px;
+}
+.textico1{
+    position: absolute;
+    top: 10px;
+    left: 300px;
+    color: white;
+    text-align: center;
+    font-size: 60px;
+    font-family: "AmazonEmberBold", sans-serif;
+}
+.textico2{
+    position: absolute;
+    font-family: 'AmazonEmberLigth';
+    font-size: 40px;
+    top: 430px;
+    left: 250px;
+}
+.textico3{
+    position: absolute;
+    font-family: 'AmazonEmberLigth';
+    font-size: 40px;
+    top: 480px;
+    left: 550px;
+}
 
 .div2{
     position: absolute;
@@ -131,53 +177,68 @@ p{
     left: 64px;
     width: 1792px;
     height: 567px;
+
 }
-.div3{
+
+.parte3{
     position: absolute;
-    top: 1717px;
+    top: 1757px;
     left: 64px;
-    width: 1792px;
-    height: 724px;
+    width: 1752px;
+    height: 664px;
+    border-radius: 100px;
+    background-color: rgb(35, 165, 224);
+    padding: 20px;
+
 }
+
 .i1{
     position: absolute;
-    top: 1896px;
-    left: 477px;
+    top: 196px;
+    left: 400px;
     width: 181px;
     height: 309px;
+    border: 1px solid #707070;
+
 }
 .i2{
     position: absolute;
-    top: 1896px;
-    left: 670px;
+    top: 196px;
+    left: 593px;
     width: 181px;
     height: 309px;
+    border: 1px solid #707070;
+
 }
 .i3{
     position: absolute;
-    top: 1896px;
-    left: 863px;
+    top: 196px;
+    left: 786px;
     width: 180px;
     height: 309px;
+    border: 1px solid #707070;
 }
 .i4{
     position: absolute;
-    top: 1896px;
-    left: 1055px;
+    top: 196px;
+    left: 978px;
     width: 181px;
     height: 309px;
+    border: 1px solid #707070;
+
 }
 .i5{
     position: absolute;
-    top: 1896px;
-    left: 1248px;
+    top: 196px;
+    left: 1171px;
     width: 181px;
     height: 309px;
+    border: 1px solid #707070;
 }
 .text1{
     position: absolute;
-    top: 1710px;
-    left: 135px;
+    top: 10px;
+    left: 70px;
     color: white;
     text-align: center;
     font-size: 60px;
@@ -185,8 +246,8 @@ p{
 }
 .text2{
     position: absolute;
-    top: 2245px;
-    right: 500px;
+    top: 530px;
+    right: 430px;
     color: white;
     text-align: center;
     font-size: 45px;
@@ -194,32 +255,25 @@ p{
 }
 .text3{
     position: absolute;
-    top: 2295px;
-    right: 300px;
+    top: 585px;
+    left: 200px;
     color: white;
     text-align: center;
     font-size: 45px;
     font-family:  "AmazonEmberligth", sans-serif;
 }
-.div4{
-    position: absolute;
-    top: 2467px;
-    left: 64px;
-    width: 1792px;
-    height: 567px;
 
-}
 .equis{
     position: absolute;
-    top: 2650px;
-    left: 876px;
+    top: 200px;
+    left: 796px;
     width: 169px;
     height: 169px;
 }
 .text4{
     position: absolute;
-    top: 2450px;
-    right: 600px;
+    top: 10px;
+    right: 540px;
     color: white;
     text-align: center;
     font-size: 60px;
@@ -227,8 +281,8 @@ p{
 }
 .text5{
     position: absolute;
-    top: 2850px;
-    right: 300px;
+    top: 400px;
+    right: 250px;
     color: white;
     text-align: center;
     font-size: 40px;
@@ -236,16 +290,26 @@ p{
 }
 .text6{
     position: absolute;
-    top: 2900px;
-    right: 900px;
+    top: 450px;
+    right: 850px;
     color: white;
     text-align: center;
     font-size: 40px;
     font-family:  "AmazonEmberligth", sans-serif;
 }
+.parte4{
+    position: absolute;
+    top: 2497px;
+    left: 64px;
+    width: 1752px;
+    height: 567px;
+    border-radius: 100px;
+    background-color: rgb(35, 165, 224);
+    padding: 20px;
+}
 .dev{
     position: absolute;
-    top: 2990px;
+    top: 3050px;
     right: 400px;
     color: white;
     text-align: center;
@@ -254,35 +318,35 @@ p{
 }
 .iphone{
     position: absolute;
-    top: 3606px;
+    top: 3706px;
     left: 386px;
     width: 256px;
     height: 219px;
 }
 .mac{
     position: absolute;
-    top: 3440px;
+    top: 3540px;
     left: 685px;
     width: 584px;
     height: 534px;
 }
 .pc{
     position: absolute;
-    top: 3587px;
+    top: 3687px;
     left: 1261px;
     width: 271px;
     height: 238px;
 }
 .flecha{
     position: absolute;
-    top: 3689px;
+    top: 3789px;
     left: 305px;
     width: 19px;
     height: 27px;
 }
 .flecha2{
     position: absolute;
-    top: 3689px;
+    top: 3789px;
     left: 1575px;
     width: 19px;
     height: 27px;
@@ -290,7 +354,7 @@ p{
 }
 .text7{
     position: absolute;
-    top: 3280px;
+    top: 3330px;
     right: 150px;
     color: white;
     text-align: center;
@@ -299,7 +363,7 @@ p{
 }
 .text8{
     position: absolute;
-    top: 3340px;
+    top: 3380px;
     right: 750px;
     color: white;
     text-align: center;
