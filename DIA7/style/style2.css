@@ -33,10 +33,10 @@
 }
 .pagina2__metrolinea--tarjeta{
     position: absolute; 
-    top: 112px;
-    left: 127px;
-    width: 884px;
-    height: 497px;
+    top: 100px;
+    left: 350px;
+    width: 576px;
+    height: 324px;
 }
 .pagina2__metrolinea--ComprarTarjeta{
     position: absolute; 
@@ -100,8 +100,51 @@
     top: 80px;
     color: #000000;
 }
+.pagina2__metrolinea--dueño{
+    position: absolute;
+    font-family: 'semi';
+    font-size: 40px;
+    top: 350px;
+    left: 290px;
+    color: #000000;
+
+}
+.pagina2__metrolinea--saldoactual{
+    position: absolute;
+    font-family: 'semi';
+    font-size: 27px;
+    top: 440px;
+    left: 470px;
+    color: #000000;
+}
+.pagina2__metrolinea--saldoescogido{
+    position: absolute;
+    font-family: 'semi';
+    font-size: 27px;
+    top: 510px;
+    left: 520px;
+    color: #000000;
+}
 
 
+
+
+.pagina2__metrolinea--seccionsaldoescogido{
+    position: absolute;
+    width: 288px;
+    height: 58px;
+    border: 1px;
+    border-width: 1px;
+    border-color: #707070;
+    border-style: solid;
+    border-radius: 10px;
+    font-family: 'semi';
+    font-size: 27px;
+    top: 590px;
+    left: 468px;
+    color: #707070;
+    background-color: #FFFFFF;
+}
 
 
 
@@ -127,7 +170,7 @@
     position: absolute;
     font-family: 'regular';
     font-size: 20px;
-    top: 120px;
+    top: 150px;
     left: 29px;
     color: white;
 }
