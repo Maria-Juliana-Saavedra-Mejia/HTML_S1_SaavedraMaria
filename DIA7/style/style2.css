@@ -6,8 +6,7 @@
     font-family: 'semi';
     src: url(../fuentes/OpenSans-SemiBold.ttf);
 }
-
-.pagina1{
+.pagina2{
     right: 0px;
     top: 0px;
     width: 1600px;
@@ -15,7 +14,7 @@
     background-image: linear-gradient(#FFFFFF, #E6E6E6, #808080);
     position: absolute;
 }
-.pagina1__metrolinea{
+.pagina2__metrolinea{
     position: absolute;
     top: 200px;
     left: 100px;
@@ -25,21 +24,21 @@
     background-color: white;
 
 }
-.pagina1__metrolinea--logo{
+.pagina2__metrolinea--logo{
     position: absolute;  
     top: 43px;
     left: 43px;
     width: 196px;
     height: 44px;
 }
-.pagina1__metrolinea--tarjeta{
+.pagina2__metrolinea--tarjeta{
     position: absolute; 
     top: 112px;
     left: 127px;
     width: 884px;
     height: 497px;
 }
-.pagina1__metrolinea--ComprarTarjeta{
+.pagina2__metrolinea--ComprarTarjeta{
     position: absolute; 
     font-family: 'regular';
     font-size: 30px;
@@ -48,47 +47,29 @@
     color: #000000;
     
 }
-.pagina1__metrolinea--VerSaldo{
+.pagina2__metrolinea--VerSaldo{
     position: absolute; 
     font-family: 'regular';
     font-size: 30px;
     top:15px;
-    left:972px ;
+    left: 950px;
     color: #000000;
 }
-.pagina1__metrolinea--lupa{
+.pagina2__metrolinea--lupa{
     position: absolute; 
     top: 54px;
     left: 1124px;
     width: 27px;
     height: 27px;
 }
-.pagina1__metrolinea--carrito{
+.pagina2__metrolinea--carrito{
     position: absolute; 
     top: 54px;
     left: 1223px;
     width: 33px;
     height: 32px;
 }
-.pagina1__metrolinea--Saldo{
-    position: absolute; 
-    font-family:'semi';
-    font-size: 40px;
-    color: #000000;
-    bottom: 51px;
-    left: 43px;
-
-
-}
-.pagina1__metrolinea--ValorSaldo{
-    position: absolute; 
-    font-family:'semi';
-    font-size: 27px;
-    color: #000000;
-    bottom: 11px;
-    left: 43px;
-}
-.pagina1__metrolinea--comprar{
+.pagina2__metrolinea--recargar{
     position: absolute; 
     width: 160px;
     height: 114px;
@@ -104,23 +85,29 @@
     justify-content: center;
     align-items: end;
 }
-.pagina1__metrolinea--logopequeño{
+.pagina2__metrolinea--logopequeño{
     position: absolute; 
     top: 690px;
     left: 1095px;
     width: 129px;
     height: 29px;
 }
-.pagina1__metrolinea--linea{
+.pagina2__metrolinea--linea{
     position: absolute; 
-    width: 149px;
+    width: 100px;
     height: 32px;
-    left: 740px;
+    left: 967px;
     top: 80px;
     color: #000000;
 }
 
-.pagina1__metrolinea2{
+
+
+
+
+
+
+.pagina2__metrolinea2{
     position: absolute;
     top: 200px;
     left: 1389px;
@@ -129,58 +116,49 @@
     background-color: #212020;
     border: 1px solid #212020;
 }
-
-
-.pagina1__metrolinea2--flechaarriba{
+.pagina2__metrolinea2--flechaarriba{
     position: absolute;
     top: 58px;
     left: 40px;
     width: 24px;
     height: 14px;
 }
-.pagina1__metrolinea2--texto{
+.pagina2__metrolinea2--texto{
     position: absolute;
     font-family: 'regular';
     font-size: 20px;
     top: 120px;
-    left: 13px;
+    left: 29px;
     color: white;
 }
-.pagina1__metrolinea2--numero04{
+.pagina2__metrolinea2--numero04{
     position: absolute;
     font-family: 'regular';
     font-size: 20px;
     top: 280px;
-    left: 43px;
+    left: 29px;
     color: rgba(255, 255, 255, 0.637);
 }
-.pagina1__metrolinea2--numero05{
+.pagina2__metrolinea2--numero05{
     position: absolute;
     font-family: 'regular';
     font-size: 20px;
     top: 380px;
-    left: 43px;
+    left: 29px;
     color: white;
 }
-.pagina1__metrolinea2--numero06{
+.pagina2__metrolinea2--numero06{
     position: absolute;
     font-family: 'regular';
     font-size: 20px;
     top: 480px;
-    left: 43px;
+    left: 29px;
     color: rgba(255, 255, 255, 0.637);
 }
-.pagina1__metrolinea2--flechaabajo{
+.pagina2__metrolinea2--flechaabajo{
     position: absolute;
     top: 720px;
     left: 40px;
     width: 24px;
     height: 14px;
 }
-
-
-
-
-
-
-
