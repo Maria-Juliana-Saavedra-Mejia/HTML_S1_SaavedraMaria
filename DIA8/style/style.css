@@ -1,0 +1,75 @@
+@font-face {
+    font-family:'barlow' ;
+    src: url(../fuentes/Barlow-Bold.ttf);
+}
+@font-face {
+    font-family:'open' ;
+    src: url(../fuentes/open-sauce.sans-semibold.ttf);
+}
+@font-face {
+    font-family:'play' ;
+    src: url(../fuentes/PlayfairDisplay-Black.ttf);
+}
+.PaginaPrincipal{
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.922);
+    width: 1920px;
+    top: 0px;
+    left: 0px;   
+}
+.PaginaPrincipal__Sección1--logo{
+    position: absolute;
+    font-family: 'barlow';
+    color: white;
+    font-size: 30px;
+    left: 250px;
+    top:-6px;
+}
+.PaginaPrincipal__Sección1--home{
+    position: absolute;
+    font-family: 'open';
+    color: white;
+    font-size: 20px;
+    top:10px;
+    left: 950px;
+}
+.PaginaPrincipal__Sección1--home :hover{
+    text-decoration: underline;
+    text-decoration-color: #ce9e5a;
+}
+.PaginaPrincipal__Sección1--about{
+    position: absolute;
+    font-family: 'open';
+    color: white;
+    font-size: 20px;
+    top:10px;
+    left: 1050px;
+}
+.PaginaPrincipal__Sección1--about:hover{
+    text-decoration: underline;
+    text-decoration-color: #ce9e5a;
+}
+.PaginaPrincipal__Sección1--menu{
+    position: absolute;
+    font-family: 'open';
+    color: white;
+    font-size: 20px;
+    top:10px;
+    left: 1150px;
+}
+.PaginaPrincipal__Sección1--menu:hover{
+    text-decoration: underline;
+    text-decoration-color: #ce9e5a;
+}
+.PaginaPrincipal__Sección1--contact{
+    position: absolute;
+    font-family: 'open';
+    color: white;
+    font-size: 20px;
+    top:10px;
+    left: 1240px;
+}
+.PaginaPrincipal__Sección1--contact:hover{
+    text-decoration: underline;
+    text-decoration-color: #ce9e5a;
+}
