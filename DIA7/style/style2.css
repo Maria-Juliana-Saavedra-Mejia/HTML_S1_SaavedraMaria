@@ -9,15 +9,15 @@
 .pagina2{
     right: 0px;
     top: 0px;
-    width: 1600px;
-    height: 1200px;
+    width: 1920px;
+    height: 1080px;
     background-image: linear-gradient(#FFFFFF, #E6E6E6, #808080);
     position: absolute;
 }
 .pagina2__metrolinea{
     position: absolute;
-    top: 200px;
-    left: 100px;
+    top: 100px;
+    left: 300px;
     width: 1400px;
     height: 800px;
     border: 1px solid #707070;
@@ -152,8 +152,8 @@
 
 .pagina2__metrolinea2{
     position: absolute;
-    top: 200px;
-    left: 1389px;
+    top: 100px;
+    left: 1589px;
     width: 110px;
     height: 800px;
     background-color: #212020;
