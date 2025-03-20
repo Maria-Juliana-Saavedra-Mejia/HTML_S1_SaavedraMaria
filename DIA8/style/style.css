@@ -101,14 +101,17 @@ body{
     position: absolute;
     font-family: 'open';
     color: black;
-    font-size: 25px;
+    font-size: 20px;
     top:1200px;
     text-align: center;
     left: 890px;
     width: 200px;
-    height: 80px;
+    height: 45px;
     background-color: #ce9e5a;
     border: #ce9e5a;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 
