@@ -10,13 +10,28 @@
     font-family:'play' ;
     src: url(../fuentes/PlayfairDisplay-Black.ttf);
 }
+a{
+    color: white;
+    text-decoration: none;
+}
 body{
     position: absolute;
     background-color: black;
     width: 1920px;
     height: 4800px;
-  
+    overflow: scroll;
+    padding: 20px;
 }
+body::-webkit-scrollbar{
+    width: 10px;
+    color: white;
+
+}
+body::-webkit-scrollbar-thumb{
+    background-color: #ffffff80;
+    border-radius: 5px;
+}
+
 .PaginaPrincipal__Seccion1--logo{
     position: absolute;
     font-family: 'barlow';
@@ -30,7 +45,7 @@ body{
     font-family: 'open';
     color: white;
     font-size: 20px;
-    top:10px;
+    top:35px;
     left: 1250px;
 }
 .PaginaPrincipal__Seccion1--home :hover{
@@ -42,7 +57,7 @@ body{
     font-family: 'open';
     color: white;
     font-size: 20px;
-    top:10px;
+    top:35px;
     left: 1350px;
 }
 .PaginaPrincipal__Seccion1--about:hover{
@@ -54,7 +69,7 @@ body{
     font-family: 'open';
     color: white;
     font-size: 20px;
-    top:10px;
+    top:35px;
     left: 1450px;
 }
 .PaginaPrincipal__Seccion1--menu:hover{
@@ -66,7 +81,7 @@ body{
     font-family: 'open';
     color: white;
     font-size: 20px;
-    top:10px;
+    top:35px;
     left: 1540px;
 }
 .PaginaPrincipal__Seccion1--contact:hover{
@@ -124,7 +139,7 @@ body{
     height: 600px;
     left: 50px;
 }
-.PaginaPrincipal__Seccion2--story{
+#PaginaPrincipal__Seccion2--story{
     position: absolute;
     font-family: 'play';
     color: white;
@@ -219,7 +234,7 @@ body{
 }
 
 
-.PaginaPrincipal__Seccion4--Products{
+#PaginaPrincipal__Seccion4--Products{
     position: absolute;
     font-family: 'play';
     color: white;
@@ -497,7 +512,7 @@ body{
     line-height: 30px;
     font-weight: 100px;
 }
-.PaginaPrincipal__Seccion5--contact{
+#PaginaPrincipal__Seccion5--contact{
     position: absolute;
     font-family: 'barlow';
     color: white;
