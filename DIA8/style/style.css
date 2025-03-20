@@ -14,7 +14,7 @@ body{
     position: absolute;
     background-color: black;
     width: 1920px;
-    height: 6000px;
+    height: 4800px;
   
 }
 .PaginaPrincipal__Seccion1--logo{
@@ -218,7 +218,7 @@ body{
     font-family: 'play';
     color: white;
     font-size: 100px;
-    top:2850px;
+    top:2950px;
     left:80px;
     text-transform: uppercase;
     width:600px;
@@ -459,4 +459,120 @@ body{
     display: block;
     top:4050px;
     left: 550px;
+}
+
+
+.PaginaPrincipal__Seccion5--about{
+    position: absolute;
+    font-family: 'barlow';
+    color: white;
+    font-size: 60px;
+    left: 320px;
+    top:4200px;
+}
+.PaginaPrincipal__Seccion5--us1{
+    position: absolute;
+    font-family: 'barlow';
+    color: #ce9e5a;
+    font-size: 60px;
+    left: 180px;
+    top:62px;
+
+}
+.PaginaPrincipal__Seccion5--abouttext{
+    position: absolute;
+    font-family: 'open';
+    color: white;
+    font-size: 23px;
+    text-align: center;
+    top:4370px;
+    left: 190px;
+    width: 500px;
+    line-height: 30px;
+    font-weight: 100px;
+}
+.PaginaPrincipal__Seccion5--contact{
+    position: absolute;
+    font-family: 'barlow';
+    color: white;
+    font-size: 60px;
+    left: 820px;
+    top:4200px;
+}
+.PaginaPrincipal__Seccion5--us2{
+    position: absolute;
+    font-family: 'barlow';
+    color: #ce9e5a;
+    font-size: 60px;
+    left: 230px;
+    top:62px;
+}
+.PaginaPrincipal__Seccion5--contacttext{
+    position: absolute;
+    font-family: 'open';
+    color: white;
+    font-size: 23px;
+    text-align: center;
+    top:4370px;
+    left: 720px;
+    width: 500px;
+    line-height: 30px;
+    font-weight: 100px;
+}
+.PaginaPrincipal__Seccion5--opening{
+    position: absolute;
+    font-family: 'barlow';
+    color: white;
+    font-size: 60px;
+    left: 1250px;
+    top:4200px;
+}
+.PaginaPrincipal__Seccion5--hurse{
+    position: absolute;
+    font-family: 'barlow';
+    color: #ce9e5a;
+    font-size: 60px;
+    left: 230px;
+    top:62px;
+}
+.PaginaPrincipal__Seccion5--hursetext{
+    position: absolute;
+    font-family: 'open';
+    color: white;
+    font-size: 23px;
+    text-align: center;
+    top:4370px;
+    left: 1240px;
+    width: 500px;
+    line-height: 30px;
+    font-weight: 100px;
+}
+.PaginaPrincipal__Seccion5--line{
+    position: absolute;
+    height: 2px;
+    width: 800px;
+    background-color: #ce9e5a;
+    display: block;
+    top:4700px;
+    left: 550px;
+}
+.PaginaPrincipal__rigths{
+    position: absolute;
+    font-family: 'open';
+    color: white;
+    font-size: 20px;
+    text-align: center;
+    top:4710px;
+    left: 660px;
+    width: 500px;
+    line-height: 30px;
+    font-weight: 100px;
+}
+.PaginaPrincipal__rigths--CL{
+    position: absolute;
+    font-family: 'open';
+    color: #ce9e5a;
+    font-size: 20px;
+    left: 430px;
+    top:0px;
 }
