@@ -12,6 +12,8 @@ En este repositorio se encuentran todos los trabajos y anotaciones de la estudia
 | DIA5 |https://github.com/Maria-Juliana-Saavedra-Mejia/HTML_S1_SaavedraMaria/tree/master/DIA5|
 | DIA6 |https://github.com/Maria-Juliana-Saavedra-Mejia/HTML_S1_SaavedraMaria/tree/master/DIA6|
 | DIA7 |https://github.com/Maria-Juliana-Saavedra-Mejia/HTML_S1_SaavedraMaria/tree/master/DIA7|
+| DIA8 |https://github.com/Maria-Juliana-Saavedra-Mejia/HTML_S1_SaavedraMaria/tree/master/DIA8|
+
 
 # **Instalación**
 
@@ -39,3 +41,6 @@ Se encuentra la corrección del trabajo de HTML - INTRO CSS.
 
 > [**Dia7**]
 Se encuentra el trabajo de HTML - SELECTORES
+
+> [**Dia8**]
+Se encuentra el trabajo de HTML - CONTENIDOS

@@ -1,6 +1,6 @@
 # HTML - SELECTORES
 
-En este repositorio se encuentra el trabajo HTML - INTRO CSS creado por la Camper Maria Juliana Saavedra Mejia en HTML y CSS.
+En este repositorio se encuentra el trabajo HTML - SELECTORES creado por la Camper Maria Juliana Saavedra Mejia en HTML y CSS.
 
 
 | Modulo | Contenido |
