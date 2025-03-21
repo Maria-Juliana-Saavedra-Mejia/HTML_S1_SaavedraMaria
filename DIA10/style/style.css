@@ -1,0 +1,599 @@
+@font-face {
+    font-family:'barlow' ;
+    src: url(../fuentes/Barlow-Bold.ttf);
+}
+@font-face {
+    font-family:'open' ;
+    src: url(../fuentes/open-sauce.sans-semibold.ttf);
+}
+@font-face {
+    font-family:'play' ;
+    src: url(../fuentes/PlayfairDisplay-Black.ttf);
+}
+a{
+    color: white;
+    text-decoration: none;
+}
+body{
+    position: absolute;
+    background-color: black;
+    width: 1920px;
+    height: 4800px;
+    overflow: scroll;
+    padding: 20px;
+}
+body::-webkit-scrollbar{
+    width: 10px;
+    color: white;
+
+}
+body::-webkit-scrollbar-thumb{
+    background-color: #ffffff80;
+    border-radius: 5px;
+}
+
+.PaginaPrincipal__Seccion1--logo{
+    position: absolute;
+    font-family: 'barlow';
+    color: white;
+    font-size: 30px;
+    left: 350px;
+    top:-6px;
+}
+.PaginaPrincipal__Seccion1--home{
+    position: absolute;
+    font-family: 'open';
+    color: white;
+    font-size: 20px;
+    top:35px;
+    left: 1250px;
+}
+.PaginaPrincipal__Seccion1--home :hover{
+    text-decoration: underline;
+    text-decoration-color: #ce9e5a;
+}
+.PaginaPrincipal__Seccion1--about{
+    position: absolute;
+    font-family: 'open';
+    color: white;
+    font-size: 20px;
+    top:35px;
+    left: 1350px;
+}
+.PaginaPrincipal__Seccion1--about:hover{
+    text-decoration: underline;
+    text-decoration-color: #ce9e5a;
+}
+.PaginaPrincipal__Seccion1--menu{
+    position: absolute;
+    font-family: 'open';
+    color: white;
+    font-size: 20px;
+    top:35px;
+    left: 1450px;
+}
+.PaginaPrincipal__Seccion1--menu:hover{
+    text-decoration: underline;
+    text-decoration-color: #ce9e5a;
+}
+.PaginaPrincipal__Seccion1--contact{
+    position: absolute;
+    font-family: 'open';
+    color: white;
+    font-size: 20px;
+    top:35px;
+    left: 1540px;
+}
+.PaginaPrincipal__Seccion1--contact:hover{
+    text-decoration: underline;
+    text-decoration-color: #ce9e5a;
+}
+
+.PaginaPrincipal__Seccion1--start{
+    position: absolute;
+    font-family: 'play';
+    color: white;
+    font-size: 100px;
+    top:70px;
+    left: 520px;
+}
+.PaginaPrincipal__Seccion1--img1{
+    position: absolute;
+    top: -200px;
+    width: 2180px;
+    height: 1520px;
+    left: -150px;
+}
+.PaginaPrincipal__Seccion1--with{
+    position: absolute;
+    font-family: 'play';
+    color: white;
+    font-size: 100px;
+    top:880px;
+    left: 500px;
+}
+.PaginaPrincipal__Seccion1--shop{
+    position: absolute;
+    font-family: 'open';
+    color: black;
+    font-size: 20px;
+    top:1200px;
+    text-align: center;
+    left: 890px;
+    width: 200px;
+    height: 45px;
+    background-color: #ce9e5a;
+    border: #ce9e5a;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+
+.PaginaPrincipal__Seccion2--img2{
+    position: absolute;
+    top: 1500px;
+    width: 900px;
+    height: 600px;
+    left: 50px;
+}
+#PaginaPrincipal__Seccion2--story{
+    position: absolute;
+    font-family: 'play';
+    color: white;
+    font-size: 100px;
+    top:1600px;
+    left: 1150px;
+    text-transform: uppercase;
+}
+.PaginaPrincipal__Seccion2--line{
+    position: absolute;
+    height: 2px;
+    width: 180px;
+    background-color: white;
+    display: block;
+    top:1670px;
+    left: 950px;
+}
+.PaginaPrincipal__Seccion2--storyText{
+    position: absolute;
+    font-family: 'open';
+    color: white;
+    font-size: 20px;
+    top:1750px;
+    left: 1150px;
+    width: 550px;
+    line-height: 30px;
+    font-weight: 100px;
+}
+.PaginaPrincipal__Seccion2--LearnMore{
+    position: absolute;
+    font-family: 'open';
+    color: black;
+    font-size: 25px;
+    top:1870px;
+    text-align: center;
+    left: 1150px;
+    width: 200px;
+    height: 50px;
+    background-color: #ce9e5a;
+    border: #ce9e5a;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+
+
+.PaginaPrincipal__Seccion3--img3{
+    position: absolute;
+    top: 2200px;
+    width: 600px;
+    height: 600px;
+    left: 1150px;
+}
+.PaginaPrincipal__Seccion3--Perfect{
+    position: absolute;
+    font-family: 'play';
+    color: white;
+    font-size: 70px;
+    top:2200px;
+    left: 250px;
+    text-transform: uppercase;
+    width:600px;
+}
+.PaginaPrincipal__Seccion3--PerfectText{
+    position: absolute;
+    font-family: 'open';
+    color: white;
+    font-size: 20px;
+    top:2530px;
+    left: 250px;
+    width: 550px;
+    line-height: 30px;
+    font-weight: 100px;
+}
+.PaginaPrincipal__Seccion3--LearnMore{
+    position: absolute;
+    font-family: 'open';
+    color: black;
+    font-size: 25px;
+    top:2600px;
+    text-align: center;
+    left: 250px;
+    width: 200px;
+    height: 50px;
+    background-color: #ce9e5a;
+    border: #ce9e5a;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+#PaginaPrincipal__Seccion4--Products{
+    position: absolute;
+    font-family: 'play';
+    color: white;
+    font-size: 100px;
+    top:2950px;
+    left:80px;
+    text-transform: uppercase;
+    width:600px;
+}
+
+.PaginaPrincipal__Seccion4--cuadro1{
+    position: absolute;
+    height: 680px;
+    width: 480px;
+    border: 2px solid #ce9e5a;
+    display: block;
+    top:3270px;
+    left: 150px;
+}
+.PaginaPrincipal__Seccion4--mocha1{
+    position: absolute;
+    font-family: 'barlow';
+    color: white;
+    font-size: 30px;
+    left: 350px;
+    top:3400px;
+}
+.PaginaPrincipal__Seccion4--espresso1{
+    position: absolute;
+    font-family: 'open';
+    color: white;
+    font-size: 23px;
+    top:3550px;
+    left: 320px;
+    width: 550px;
+    line-height: 30px;
+    font-weight: 100px;
+}
+.PaginaPrincipal__Seccion4--chocolate1{
+    position: absolute;
+    font-family: 'open';
+    color: white;
+    font-size: 23px;
+    top:3610px;
+    left: 320px;
+    width: 550px;
+    line-height: 30px;
+    font-weight: 100px;
+}
+.PaginaPrincipal__Seccion4--milk1{
+    position: absolute;
+    font-family: 'open';
+    color: white;
+    font-size: 23px;
+    top:3670px;
+    left: 320px;
+    width: 550px;
+    line-height: 30px;
+    font-weight: 100px;
+}
+
+.PaginaPrincipal__Seccion4--LearnMore1{
+    position: absolute;
+    font-family: 'open';
+    color: black;
+    font-size: 25px;
+    top:3840px;
+    text-align: center;
+    left: 300px;
+    width: 200px;
+    height: 50px;
+    background-color: #ce9e5a;
+    border: #ce9e5a;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.PaginaPrincipal__Seccion4--img1{
+    position: absolute;
+    height: 180px;
+    width: 180px;
+    top:3200px;
+    left: 300px;
+}
+
+.PaginaPrincipal__Seccion4--cuadro2{
+    position: absolute;
+    height: 680px;
+    width: 480px;
+    border: 2px solid #ce9e5a;
+    display: block;
+    top:3270px;
+    left:700px;
+}
+.PaginaPrincipal__Seccion4--mocha2{
+    position: absolute;
+    font-family: 'barlow';
+    color: white;
+    font-size: 30px;
+    left: 900px;
+    top:3400px;
+}
+.PaginaPrincipal__Seccion4--espresso2{
+    position: absolute;
+    font-family: 'open';
+    color: white;
+    font-size: 23px;
+    top:3550px;
+    left: 870px;
+    width: 550px;
+    line-height: 30px;
+    font-weight: 100px;
+}
+.PaginaPrincipal__Seccion4--chocolate2{
+    position: absolute;
+    font-family: 'open';
+    color: white;
+    font-size: 23px;
+    top:3610px;
+    left: 870px;
+    width: 550px;
+    line-height: 30px;
+    font-weight: 100px;
+}
+.PaginaPrincipal__Seccion4--milk2{
+    position: absolute;
+    font-family: 'open';
+    color: white;
+    font-size: 23px;
+    top:3670px;
+    left: 870px;
+    width: 550px;
+    line-height: 30px;
+    font-weight: 100px;
+}
+.PaginaPrincipal__Seccion4--LearnMore2{
+    position: absolute;
+    font-family: 'open';
+    color: black;
+    font-size: 25px;
+    top:3840px;
+    text-align: center;
+    left: 850px;
+    width: 200px;
+    height: 50px;
+    background-color: #ce9e5a;
+    border: #ce9e5a;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.PaginaPrincipal__Seccion4--img2{
+    position: absolute;
+    height: 180px;
+    width: 180px; 
+    top:3200px;
+    left: 850px;
+}
+
+
+.PaginaPrincipal__Seccion4--cuadro3{
+    position: absolute;
+    height: 680px;
+    width: 480px;
+    border: 2px solid #ce9e5a;
+    display: block;
+    top:3270px;
+    left: 1250px;
+}
+.PaginaPrincipal__Seccion4--mocha3{
+    position: absolute;
+    font-family: 'barlow';
+    color: white;
+    font-size: 30px;
+    left: 1450px;
+    top:3400px;
+}
+.PaginaPrincipal__Seccion4--espresso3{
+    position: absolute;
+    font-family: 'open';
+    color: white;
+    font-size: 23px;
+    top:3550px;
+    left: 1420px;
+    width: 550px;
+    line-height: 30px;
+    font-weight: 100px;
+}
+.PaginaPrincipal__Seccion4--chocolate3{
+    position: absolute;
+    font-family: 'open';
+    color: white;
+    font-size: 23px;
+    top:3610px;
+    left: 1420px;
+    width: 550px;
+    line-height: 30px;
+    font-weight: 100px;
+}
+.PaginaPrincipal__Seccion4--milk3{
+    position: absolute;
+    font-family: 'open';
+    color: white;
+    font-size: 23px;
+    top:3670px;
+    left: 1420px;
+    width: 550px;
+    line-height: 30px;
+    font-weight: 100px;
+}
+.PaginaPrincipal__Seccion4--LearnMore3{
+    position: absolute;
+    font-family: 'open';
+    color: black;
+    font-size: 25px;
+    top:3840px;
+    text-align: center;
+    left: 1400px;
+    width: 200px;
+    height: 50px;
+    background-color: #ce9e5a;
+    border: #ce9e5a;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.PaginaPrincipal__Seccion4--img3{
+    position: absolute;
+    height: 180px;
+    width: 180px; 
+    top:3200px;
+    left: 1400px;
+}
+.PaginaPrincipal__Seccion4--line{
+    position: absolute;
+    height: 2px;
+    width: 800px;
+    background-color: #ce9e5a;
+    display: block;
+    top:4050px;
+    left: 550px;
+}
+
+
+.PaginaPrincipal__Seccion5--about{
+    position: absolute;
+    font-family: 'barlow';
+    color: white;
+    font-size: 60px;
+    left: 320px;
+    top:4200px;
+}
+.PaginaPrincipal__Seccion5--us1{
+    position: absolute;
+    font-family: 'barlow';
+    color: #ce9e5a;
+    font-size: 60px;
+    left: 180px;
+    top:62px;
+
+}
+.PaginaPrincipal__Seccion5--abouttext{
+    position: absolute;
+    font-family: 'open';
+    color: white;
+    font-size: 23px;
+    text-align: center;
+    top:4370px;
+    left: 190px;
+    width: 500px;
+    line-height: 30px;
+    font-weight: 100px;
+}
+#PaginaPrincipal__Seccion5--contact{
+    position: absolute;
+    font-family: 'barlow';
+    color: white;
+    font-size: 60px;
+    left: 820px;
+    top:4200px;
+}
+.PaginaPrincipal__Seccion5--us2{
+    position: absolute;
+    font-family: 'barlow';
+    color: #ce9e5a;
+    font-size: 60px;
+    left: 230px;
+    top:62px;
+}
+.PaginaPrincipal__Seccion5--contacttext{
+    position: absolute;
+    font-family: 'open';
+    color: white;
+    font-size: 23px;
+    text-align: center;
+    top:4370px;
+    left: 720px;
+    width: 500px;
+    line-height: 30px;
+    font-weight: 100px;
+}
+.PaginaPrincipal__Seccion5--opening{
+    position: absolute;
+    font-family: 'barlow';
+    color: white;
+    font-size: 60px;
+    left: 1250px;
+    top:4200px;
+}
+.PaginaPrincipal__Seccion5--hurse{
+    position: absolute;
+    font-family: 'barlow';
+    color: #ce9e5a;
+    font-size: 60px;
+    left: 230px;
+    top:62px;
+}
+.PaginaPrincipal__Seccion5--hursetext{
+    position: absolute;
+    font-family: 'open';
+    color: white;
+    font-size: 23px;
+    text-align: center;
+    top:4370px;
+    left: 1240px;
+    width: 500px;
+    line-height: 30px;
+    font-weight: 100px;
+}
+.PaginaPrincipal__Seccion5--line{
+    position: absolute;
+    height: 2px;
+    width: 800px;
+    background-color: #ce9e5a;
+    display: block;
+    top:4700px;
+    left: 550px;
+}
+.PaginaPrincipal__rigths{
+    position: absolute;
+    font-family: 'open';
+    color: white;
+    font-size: 20px;
+    text-align: center;
+    top:4710px;
+    left: 660px;
+    width: 500px;
+    line-height: 30px;
+    font-weight: 100px;
+}
+.PaginaPrincipal__rigths--CL{
+    position: absolute;
+    font-family: 'open';
+    color: #ce9e5a;
+    font-size: 20px;
+    left: 430px;
+    top:0px;
+}
