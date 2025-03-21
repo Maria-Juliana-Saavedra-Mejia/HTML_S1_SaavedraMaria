@@ -10,6 +10,9 @@
     font-family:'play' ;
     src: url(../fuentes/PlayfairDisplay-Black.ttf);
 }
+html{
+    scroll-behavior: smooth;
+}
 a{
     color: white;
     text-decoration: none;
