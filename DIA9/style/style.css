@@ -1,0 +1,25 @@
+div{
+    /*Creación de bordes en divisiones*/
+    
+    border-color: red;
+    border-width: 1px;
+    border-style: dotted;
+    border: 1px solid red;
+    border-bottom-width: 20px;
+    border-left-width: 15px;
+    border-top-width: 15px;
+    border-top-color: black;
+    border-radius: 12px;
+
+}
+.div1{
+    margin: 1px;
+    width: 80px;
+    height: 60px;
+    color: white;
+    background: blue;
+    max-width: 100px;
+}
+.div2{
+    padding: 1px;
+}
