@@ -135,50 +135,49 @@ body::-webkit-scrollbar-thumb{
 
 .PaginaPrincipal__Seccion2--img2{
     position: relative;
-    top: 1500px;
-    width: 900px;
-    height: 600px;
-    left: 50px;
+    top: -30vw;
+    width: 45vw;
+    height: 30vw;
+    left: -5vw;
 }
 #PaginaPrincipal__Seccion2--story{
     position: relative;
     font-family: 'play';
     color: white;
-    font-size: 100px;
-    top:1600px;
-    left: 1150px;
+    font-size: 4vw;
+    top: -55vw;
+    left: 45vw;
     text-transform: uppercase;
 }
 .PaginaPrincipal__Seccion2--line{
     position: relative;
-    height: 2px;
-    width: 180px;
+    height: 0.2vw;
+    width: 10vw;
     background-color: white;
     display: block;
-    top:1670px;
-    left: 950px;
+    top: -22vw;
+    left: 32vw;
 }
 .PaginaPrincipal__Seccion2--storyText{
     position: relative;
     font-family: 'open';
     color: white;
-    font-size: 20px;
-    top:1750px;
-    left: 1150px;
-    width: 550px;
-    line-height: 30px;
-    font-weight: 100px;
+    font-size: 1vw;
+    top: -53vw;
+    left: 46vw;
+    width: 28vw;
+    line-height: 1.5vw;
 }
 .PaginaPrincipal__Seccion2--LearnMore{
     position: relative;
     font-family: 'open';
     color: black;
-    font-size: 25px;
-    top:1870px;
+    font-size: 1vw;
+    top:-52vw;
     text-align: center;
-    left: 1150px;
-    width: 200px;
-    height: 50px;
+    left: 46vw;
+    width: 10vw;
+    height: 2vw;
     background-color: #ce9e5a;
     border: #ce9e5a;
     display: flex;
@@ -191,42 +190,41 @@ body::-webkit-scrollbar-thumb{
 
 .PaginaPrincipal__Seccion3--img3{
     position: relative;
-    top: 2200px;
-    width: 600px;
-    height: 600px;
-    left: 1150px;
+    top: -35vw;
+    width: 28vw;
+    height: 26vw;
+    left: 45vw;
 }
 .PaginaPrincipal__Seccion3--Perfect{
     position: relative;
     font-family: 'play';
     color: white;
-    font-size: 70px;
-    top:2200px;
-    left: 250px;
+    font-size: 3.5vw;
+    top: -60vw;
+    left: 5vw;
     text-transform: uppercase;
-    width:600px;
+    width:30vw;
 }
 .PaginaPrincipal__Seccion3--PerfectText{
     position: relative;
     font-family: 'open';
     color: white;
-    font-size: 20px;
-    top:2530px;
-    left: 250px;
-    width: 550px;
-    line-height: 30px;
-    font-weight: 100px;
+    font-size: 1vw;
+    top: -58vw;
+    left: 5vw;
+    width: 28vw;
+    line-height: 1.5vw;
 }
 .PaginaPrincipal__Seccion3--LearnMore{
     position: relative;
     font-family: 'open';
     color: black;
-    font-size: 25px;
-    top:2600px;
+    font-size: 1vw;
+    top:-56vw;
     text-align: center;
-    left: 250px;
-    width: 200px;
-    height: 50px;
+    left: 5vw;
+    width: 10vw;
+    height: 2vw;
     background-color: #ce9e5a;
     border: #ce9e5a;
     display: flex;
@@ -235,32 +233,33 @@ body::-webkit-scrollbar-thumb{
 }
 
 
+
+
 #PaginaPrincipal__Seccion4--Products{
+    text-transform: uppercase;
     position: relative;
     font-family: 'play';
     color: white;
-    font-size: 100px;
-    top:2950px;
-    left:80px;
-    text-transform: uppercase;
-    width:600px;
+    font-size: 5vw;
+    top:-35vw;
+    left: 2vw;
 }
 
 .PaginaPrincipal__Seccion4--cuadro1{
     position: relative;
-    height: 680px;
-    width: 480px;
-    border: 2px solid #ce9e5a;
+    height: 35vw;
+    width: 25vw;
+    border: 0.2vw solid #ce9e5a;
     display: block;
-    top:3270px;
-    left: 150px;
+    top:-30vw;
+    left: 5vw;
 }
 .PaginaPrincipal__Seccion4--mocha1{
     position: relative;
     font-family: 'barlow';
     color: white;
     font-size: 30px;
-    left: 350px;
+    left: 67vw;
     top:3400px;
 }
 .PaginaPrincipal__Seccion4--espresso1{
@@ -269,7 +268,7 @@ body::-webkit-scrollbar-thumb{
     color: white;
     font-size: 23px;
     top:3550px;
-    left: 320px;
+    left: 67vw;
     width: 550px;
     line-height: 30px;
     font-weight: 100px;
@@ -280,7 +279,7 @@ body::-webkit-scrollbar-thumb{
     color: white;
     font-size: 23px;
     top:3610px;
-    left: 320px;
+    left: 67vw;
     width: 550px;
     line-height: 30px;
     font-weight: 100px;
@@ -291,7 +290,7 @@ body::-webkit-scrollbar-thumb{
     color: white;
     font-size: 23px;
     top:3670px;
-    left: 320px;
+    left: 67vw;
     width: 550px;
     line-height: 30px;
     font-weight: 100px;
@@ -301,12 +300,12 @@ body::-webkit-scrollbar-thumb{
     position: relative;
     font-family: 'open';
     color: black;
-    font-size: 25px;
+    font-size: 1vw;
     top:3840px;
     text-align: center;
-    left: 300px;
-    width: 200px;
-    height: 50px;
+    left: 67vw;
+    width: 10vw;
+    height: 2vw;
     background-color: #ce9e5a;
     border: #ce9e5a;
     display: flex;
@@ -319,24 +318,24 @@ body::-webkit-scrollbar-thumb{
     height: 180px;
     width: 180px;
     top:3200px;
-    left: 300px;
+    left: 67vw;
 }
 
 .PaginaPrincipal__Seccion4--cuadro2{
     position: relative;
-    height: 680px;
-    width: 480px;
-    border: 2px solid #ce9e5a;
+    height: 35vw;
+    width: 25vw;
+    border: 0.2vw solid #ce9e5a;
     display: block;
-    top:3270px;
-    left:700px;
+    top:-90vw;
+    left: 36vw;
 }
 .PaginaPrincipal__Seccion4--mocha2{
     position: relative;
     font-family: 'barlow';
     color: white;
     font-size: 30px;
-    left: 900px;
+    left: 67vw;
     top:3400px;
 }
 .PaginaPrincipal__Seccion4--espresso2{
@@ -345,7 +344,7 @@ body::-webkit-scrollbar-thumb{
     color: white;
     font-size: 23px;
     top:3550px;
-    left: 870px;
+    left: 67vw;
     width: 550px;
     line-height: 30px;
     font-weight: 100px;
@@ -356,7 +355,7 @@ body::-webkit-scrollbar-thumb{
     color: white;
     font-size: 23px;
     top:3610px;
-    left: 870px;
+    left: 67vw;
     width: 550px;
     line-height: 30px;
     font-weight: 100px;
@@ -367,7 +366,7 @@ body::-webkit-scrollbar-thumb{
     color: white;
     font-size: 23px;
     top:3670px;
-    left: 870px;
+    left: 67vw;
     width: 550px;
     line-height: 30px;
     font-weight: 100px;
@@ -376,12 +375,12 @@ body::-webkit-scrollbar-thumb{
     position: relative;
     font-family: 'open';
     color: black;
-    font-size: 25px;
+    font-size: 1vw;
     top:3840px;
     text-align: center;
-    left: 850px;
-    width: 200px;
-    height: 50px;
+    left: 67vw;
+    width: 10vw;
+    height: 2vw;
     background-color: #ce9e5a;
     border: #ce9e5a;
     display: flex;
@@ -394,25 +393,25 @@ body::-webkit-scrollbar-thumb{
     height: 180px;
     width: 180px; 
     top:3200px;
-    left: 850px;
+    left: 67vw;
 }
 
 
 .PaginaPrincipal__Seccion4--cuadro3{
     position: relative;
-    height: 680px;
-    width: 480px;
-    border: 2px solid #ce9e5a;
+    height: 35vw;
+    width: 25vw;
+    border: 0.2vw solid #ce9e5a;
     display: block;
-    top:3270px;
-    left: 1250px;
+    top:-150vw;
+    left: 67vw;
 }
 .PaginaPrincipal__Seccion4--mocha3{
     position: relative;
     font-family: 'barlow';
     color: white;
     font-size: 30px;
-    left: 1450px;
+    left: 67vw;
     top:3400px;
 }
 .PaginaPrincipal__Seccion4--espresso3{
@@ -421,7 +420,7 @@ body::-webkit-scrollbar-thumb{
     color: white;
     font-size: 23px;
     top:3550px;
-    left: 1420px;
+    left: 67vw;
     width: 550px;
     line-height: 30px;
     font-weight: 100px;
@@ -432,7 +431,7 @@ body::-webkit-scrollbar-thumb{
     color: white;
     font-size: 23px;
     top:3610px;
-    left: 1420px;
+    left: 67vw;
     width: 550px;
     line-height: 30px;
     font-weight: 100px;
@@ -443,7 +442,7 @@ body::-webkit-scrollbar-thumb{
     color: white;
     font-size: 23px;
     top:3670px;
-    left: 1420px;
+    left: 67vw;
     width: 550px;
     line-height: 30px;
     font-weight: 100px;
@@ -452,12 +451,12 @@ body::-webkit-scrollbar-thumb{
     position: relative;
     font-family: 'open';
     color: black;
-    font-size: 25px;
+    font-size: 1vw;
     top:3840px;
     text-align: center;
-    left: 1400px;
-    width: 200px;
-    height: 50px;
+    left: 67vw;
+    width: 10vw;
+    height: 2vw;
     background-color: #ce9e5a;
     border: #ce9e5a;
     display: flex;
@@ -471,7 +470,7 @@ body::-webkit-scrollbar-thumb{
     height: 180px;
     width: 180px; 
     top:3200px;
-    left: 1400px;
+    left: 67vw;
 }
 .PaginaPrincipal__Seccion4--line{
     position: relative;
@@ -480,7 +479,7 @@ body::-webkit-scrollbar-thumb{
     background-color: #ce9e5a;
     display: block;
     top:4050px;
-    left: 550px;
+    left: 67vw;
 }
 
 
@@ -489,7 +488,7 @@ body::-webkit-scrollbar-thumb{
     font-family: 'barlow';
     color: white;
     font-size: 60px;
-    left: 320px;
+    left: 67vw;
     top:4200px;
 }
 .PaginaPrincipal__Seccion5--us1{
@@ -497,7 +496,7 @@ body::-webkit-scrollbar-thumb{
     font-family: 'barlow';
     color: #ce9e5a;
     font-size: 60px;
-    left: 180px;
+    left: 67vw;
     top:62px;
 
 }
@@ -508,7 +507,7 @@ body::-webkit-scrollbar-thumb{
     font-size: 23px;
     text-align: center;
     top:4370px;
-    left: 190px;
+    left: 67vw;
     width: 500px;
     line-height: 30px;
     font-weight: 100px;
@@ -518,7 +517,7 @@ body::-webkit-scrollbar-thumb{
     font-family: 'barlow';
     color: white;
     font-size: 60px;
-    left: 820px;
+    left: 67vw;
     top:4200px;
 }
 .PaginaPrincipal__Seccion5--us2{
@@ -526,7 +525,7 @@ body::-webkit-scrollbar-thumb{
     font-family: 'barlow';
     color: #ce9e5a;
     font-size: 60px;
-    left: 230px;
+    left: 67vw;
     top:62px;
 }
 .PaginaPrincipal__Seccion5--contacttext{
@@ -536,7 +535,7 @@ body::-webkit-scrollbar-thumb{
     font-size: 23px;
     text-align: center;
     top:4370px;
-    left: 720px;
+    left: 67vw;
     width: 500px;
     line-height: 30px;
     font-weight: 100px;
@@ -546,7 +545,7 @@ body::-webkit-scrollbar-thumb{
     font-family: 'barlow';
     color: white;
     font-size: 60px;
-    left: 1250px;
+    left: 67vw;
     top:4200px;
 }
 .PaginaPrincipal__Seccion5--hurse{
@@ -554,7 +553,7 @@ body::-webkit-scrollbar-thumb{
     font-family: 'barlow';
     color: #ce9e5a;
     font-size: 60px;
-    left: 230px;
+    left: 67vw;
     top:62px;
 }
 .PaginaPrincipal__Seccion5--hursetext{
@@ -564,7 +563,7 @@ body::-webkit-scrollbar-thumb{
     font-size: 23px;
     text-align: center;
     top:4370px;
-    left: 1240px;
+    left: 67vw;
     width: 500px;
     line-height: 30px;
     font-weight: 100px;
@@ -576,7 +575,7 @@ body::-webkit-scrollbar-thumb{
     background-color: #ce9e5a;
     display: block;
     top:4700px;
-    left: 550px;
+    left: 67vw;
 }
 .PaginaPrincipal__rigths{
     position: relative;
@@ -585,7 +584,7 @@ body::-webkit-scrollbar-thumb{
     font-size: 20px;
     text-align: center;
     top:4710px;
-    left: 660px;
+    left: 67vw;
     width: 500px;
     line-height: 30px;
     font-weight: 100px;
@@ -595,6 +594,6 @@ body::-webkit-scrollbar-thumb{
     font-family: 'open';
     color: #ce9e5a;
     font-size: 20px;
-    left: 430px;
+    left: 67vw;
     top:0px;
 }
