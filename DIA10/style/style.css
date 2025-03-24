@@ -18,74 +18,78 @@ a{
     text-decoration: none;
 }
 body{
-    position: absolute;
+    position: relative;
     background-color: black;
-    width: 1920px;
-    height: 4800px;
     overflow: scroll;
-    padding: 20px;
+    padding: 1vw;
 }
 body::-webkit-scrollbar{
-    width: 10px;
+    width: 1vw;
     color: white;
 
 }
 body::-webkit-scrollbar-thumb{
     background-color: #ffffff80;
-    border-radius: 5px;
+    border-radius: 1vw;
 }
-
+.PaginaPrincipal__Seccion1--img1{
+    position: relative;
+    top: 0vw;
+    width: 80vw;
+    height: 57vw;
+    left: 0vw;
+}
 .PaginaPrincipal__Seccion1--logo{
-    position: absolute;
+    position: relative;
     font-family: 'barlow';
     color: white;
-    font-size: 30px;
-    left: 350px;
-    top:-6px;
+    font-size: 1.5vw;
+    left: 16vw;
+    top:-59vw;
 }
 .PaginaPrincipal__Seccion1--home{
-    position: absolute;
+    position: relative;
     font-family: 'open';
     color: white;
-    font-size: 20px;
-    top:35px;
-    left: 1250px;
+    font-size: 1vw;
+    left: 53vw;
+    top:-61.8vw;
 }
 .PaginaPrincipal__Seccion1--home :hover{
     text-decoration: underline;
     text-decoration-color: #ce9e5a;
 }
 .PaginaPrincipal__Seccion1--about{
-    position: absolute;
+    position: relative;
     font-family: 'open';
     color: white;
-    font-size: 20px;
-    top:35px;
-    left: 1350px;
+    font-size: 1vw;
+    left: 58vw;
+    top:-63vw;
 }
 .PaginaPrincipal__Seccion1--about:hover{
     text-decoration: underline;
     text-decoration-color: #ce9e5a;
 }
 .PaginaPrincipal__Seccion1--menu{
-    position: absolute;
+    position: relative;
     font-family: 'open';
     color: white;
-    font-size: 20px;
-    top:35px;
-    left: 1450px;
+    font-size: 1vw;
+    left: 63vw;
+    top:-64.3vw;
 }
 .PaginaPrincipal__Seccion1--menu:hover{
     text-decoration: underline;
     text-decoration-color: #ce9e5a;
 }
 .PaginaPrincipal__Seccion1--contact{
-    position: absolute;
+    position: relative;
     font-family: 'open';
     color: white;
-    font-size: 20px;
-    top:35px;
-    left: 1540px;
+    font-size: 1vw;
+    left: 67.5vw;
+    top:-65.5vw;
 }
 .PaginaPrincipal__Seccion1--contact:hover{
     text-decoration: underline;
@@ -93,38 +97,32 @@ body::-webkit-scrollbar-thumb{
 }
 
 .PaginaPrincipal__Seccion1--start{
-    position: absolute;
+    position: relative;
     font-family: 'play';
     color: white;
-    font-size: 100px;
-    top:70px;
-    left: 520px;
+    font-size: 5vw;
+    top:-60vw;
+    left: 20vw;
 }
-.PaginaPrincipal__Seccion1--img1{
-    position: absolute;
-    top: -200px;
-    width: 2180px;
-    height: 1520px;
-    left: -150px;
-}
+
 .PaginaPrincipal__Seccion1--with{
-    position: absolute;
+    position: relative;
     font-family: 'play';
     color: white;
-    font-size: 100px;
-    top:880px;
-    left: 500px;
+    font-size: 5vw;
+    top:-40vw;
+    left: 18vw;
 }
 .PaginaPrincipal__Seccion1--shop{
-    position: absolute;
+    position: relative;
     font-family: 'open';
     color: black;
-    font-size: 20px;
-    top:1200px;
+    font-size: 1vw;
+    top:-40vw;
     text-align: center;
-    left: 890px;
-    width: 200px;
-    height: 45px;
+    left: 36vw;
+    width: 10vw;
+    height: 2vw;
     background-color: #ce9e5a;
     border: #ce9e5a;
     display: flex;
@@ -136,14 +134,14 @@ body::-webkit-scrollbar-thumb{
 
 
 .PaginaPrincipal__Seccion2--img2{
-    position: absolute;
+    position: relative;
     top: 1500px;
     width: 900px;
     height: 600px;
     left: 50px;
 }
 #PaginaPrincipal__Seccion2--story{
-    position: absolute;
+    position: relative;
     font-family: 'play';
     color: white;
     font-size: 100px;
@@ -152,7 +150,7 @@ body::-webkit-scrollbar-thumb{
     text-transform: uppercase;
 }
 .PaginaPrincipal__Seccion2--line{
-    position: absolute;
+    position: relative;
     height: 2px;
     width: 180px;
     background-color: white;
@@ -161,7 +159,7 @@ body::-webkit-scrollbar-thumb{
     left: 950px;
 }
 .PaginaPrincipal__Seccion2--storyText{
-    position: absolute;
+    position: relative;
     font-family: 'open';
     color: white;
     font-size: 20px;
@@ -172,7 +170,7 @@ body::-webkit-scrollbar-thumb{
     font-weight: 100px;
 }
 .PaginaPrincipal__Seccion2--LearnMore{
-    position: absolute;
+    position: relative;
     font-family: 'open';
     color: black;
     font-size: 25px;
@@ -192,14 +190,14 @@ body::-webkit-scrollbar-thumb{
 
 
 .PaginaPrincipal__Seccion3--img3{
-    position: absolute;
+    position: relative;
     top: 2200px;
     width: 600px;
     height: 600px;
     left: 1150px;
 }
 .PaginaPrincipal__Seccion3--Perfect{
-    position: absolute;
+    position: relative;
     font-family: 'play';
     color: white;
     font-size: 70px;
@@ -209,7 +207,7 @@ body::-webkit-scrollbar-thumb{
     width:600px;
 }
 .PaginaPrincipal__Seccion3--PerfectText{
-    position: absolute;
+    position: relative;
     font-family: 'open';
     color: white;
     font-size: 20px;
@@ -220,7 +218,7 @@ body::-webkit-scrollbar-thumb{
     font-weight: 100px;
 }
 .PaginaPrincipal__Seccion3--LearnMore{
-    position: absolute;
+    position: relative;
     font-family: 'open';
     color: black;
     font-size: 25px;
@@ -238,7 +236,7 @@ body::-webkit-scrollbar-thumb{
 
 
 #PaginaPrincipal__Seccion4--Products{
-    position: absolute;
+    position: relative;
     font-family: 'play';
     color: white;
     font-size: 100px;
@@ -249,7 +247,7 @@ body::-webkit-scrollbar-thumb{
 }
 
 .PaginaPrincipal__Seccion4--cuadro1{
-    position: absolute;
+    position: relative;
     height: 680px;
     width: 480px;
     border: 2px solid #ce9e5a;
@@ -258,7 +256,7 @@ body::-webkit-scrollbar-thumb{
     left: 150px;
 }
 .PaginaPrincipal__Seccion4--mocha1{
-    position: absolute;
+    position: relative;
     font-family: 'barlow';
     color: white;
     font-size: 30px;
@@ -266,7 +264,7 @@ body::-webkit-scrollbar-thumb{
     top:3400px;
 }
 .PaginaPrincipal__Seccion4--espresso1{
-    position: absolute;
+    position: relative;
     font-family: 'open';
     color: white;
     font-size: 23px;
@@ -277,7 +275,7 @@ body::-webkit-scrollbar-thumb{
     font-weight: 100px;
 }
 .PaginaPrincipal__Seccion4--chocolate1{
-    position: absolute;
+    position: relative;
     font-family: 'open';
     color: white;
     font-size: 23px;
@@ -288,7 +286,7 @@ body::-webkit-scrollbar-thumb{
     font-weight: 100px;
 }
 .PaginaPrincipal__Seccion4--milk1{
-    position: absolute;
+    position: relative;
     font-family: 'open';
     color: white;
     font-size: 23px;
@@ -300,7 +298,7 @@ body::-webkit-scrollbar-thumb{
 }
 
 .PaginaPrincipal__Seccion4--LearnMore1{
-    position: absolute;
+    position: relative;
     font-family: 'open';
     color: black;
     font-size: 25px;
@@ -317,7 +315,7 @@ body::-webkit-scrollbar-thumb{
 
 }
 .PaginaPrincipal__Seccion4--img1{
-    position: absolute;
+    position: relative;
     height: 180px;
     width: 180px;
     top:3200px;
@@ -325,7 +323,7 @@ body::-webkit-scrollbar-thumb{
 }
 
 .PaginaPrincipal__Seccion4--cuadro2{
-    position: absolute;
+    position: relative;
     height: 680px;
     width: 480px;
     border: 2px solid #ce9e5a;
@@ -334,7 +332,7 @@ body::-webkit-scrollbar-thumb{
     left:700px;
 }
 .PaginaPrincipal__Seccion4--mocha2{
-    position: absolute;
+    position: relative;
     font-family: 'barlow';
     color: white;
     font-size: 30px;
@@ -342,7 +340,7 @@ body::-webkit-scrollbar-thumb{
     top:3400px;
 }
 .PaginaPrincipal__Seccion4--espresso2{
-    position: absolute;
+    position: relative;
     font-family: 'open';
     color: white;
     font-size: 23px;
@@ -353,7 +351,7 @@ body::-webkit-scrollbar-thumb{
     font-weight: 100px;
 }
 .PaginaPrincipal__Seccion4--chocolate2{
-    position: absolute;
+    position: relative;
     font-family: 'open';
     color: white;
     font-size: 23px;
@@ -364,7 +362,7 @@ body::-webkit-scrollbar-thumb{
     font-weight: 100px;
 }
 .PaginaPrincipal__Seccion4--milk2{
-    position: absolute;
+    position: relative;
     font-family: 'open';
     color: white;
     font-size: 23px;
@@ -375,7 +373,7 @@ body::-webkit-scrollbar-thumb{
     font-weight: 100px;
 }
 .PaginaPrincipal__Seccion4--LearnMore2{
-    position: absolute;
+    position: relative;
     font-family: 'open';
     color: black;
     font-size: 25px;
@@ -392,7 +390,7 @@ body::-webkit-scrollbar-thumb{
 
 }
 .PaginaPrincipal__Seccion4--img2{
-    position: absolute;
+    position: relative;
     height: 180px;
     width: 180px; 
     top:3200px;
@@ -401,7 +399,7 @@ body::-webkit-scrollbar-thumb{
 
 
 .PaginaPrincipal__Seccion4--cuadro3{
-    position: absolute;
+    position: relative;
     height: 680px;
     width: 480px;
     border: 2px solid #ce9e5a;
@@ -410,7 +408,7 @@ body::-webkit-scrollbar-thumb{
     left: 1250px;
 }
 .PaginaPrincipal__Seccion4--mocha3{
-    position: absolute;
+    position: relative;
     font-family: 'barlow';
     color: white;
     font-size: 30px;
@@ -418,7 +416,7 @@ body::-webkit-scrollbar-thumb{
     top:3400px;
 }
 .PaginaPrincipal__Seccion4--espresso3{
-    position: absolute;
+    position: relative;
     font-family: 'open';
     color: white;
     font-size: 23px;
@@ -429,7 +427,7 @@ body::-webkit-scrollbar-thumb{
     font-weight: 100px;
 }
 .PaginaPrincipal__Seccion4--chocolate3{
-    position: absolute;
+    position: relative;
     font-family: 'open';
     color: white;
     font-size: 23px;
@@ -440,7 +438,7 @@ body::-webkit-scrollbar-thumb{
     font-weight: 100px;
 }
 .PaginaPrincipal__Seccion4--milk3{
-    position: absolute;
+    position: relative;
     font-family: 'open';
     color: white;
     font-size: 23px;
@@ -451,7 +449,7 @@ body::-webkit-scrollbar-thumb{
     font-weight: 100px;
 }
 .PaginaPrincipal__Seccion4--LearnMore3{
-    position: absolute;
+    position: relative;
     font-family: 'open';
     color: black;
     font-size: 25px;
@@ -469,14 +467,14 @@ body::-webkit-scrollbar-thumb{
 }
 
 .PaginaPrincipal__Seccion4--img3{
-    position: absolute;
+    position: relative;
     height: 180px;
     width: 180px; 
     top:3200px;
     left: 1400px;
 }
 .PaginaPrincipal__Seccion4--line{
-    position: absolute;
+    position: relative;
     height: 2px;
     width: 800px;
     background-color: #ce9e5a;
@@ -487,7 +485,7 @@ body::-webkit-scrollbar-thumb{
 
 
 .PaginaPrincipal__Seccion5--about{
-    position: absolute;
+    position: relative;
     font-family: 'barlow';
     color: white;
     font-size: 60px;
@@ -495,7 +493,7 @@ body::-webkit-scrollbar-thumb{
     top:4200px;
 }
 .PaginaPrincipal__Seccion5--us1{
-    position: absolute;
+    position: relative;
     font-family: 'barlow';
     color: #ce9e5a;
     font-size: 60px;
@@ -504,7 +502,7 @@ body::-webkit-scrollbar-thumb{
 
 }
 .PaginaPrincipal__Seccion5--abouttext{
-    position: absolute;
+    position: relative;
     font-family: 'open';
     color: white;
     font-size: 23px;
@@ -516,7 +514,7 @@ body::-webkit-scrollbar-thumb{
     font-weight: 100px;
 }
 #PaginaPrincipal__Seccion5--contact{
-    position: absolute;
+    position: relative;
     font-family: 'barlow';
     color: white;
     font-size: 60px;
@@ -524,7 +522,7 @@ body::-webkit-scrollbar-thumb{
     top:4200px;
 }
 .PaginaPrincipal__Seccion5--us2{
-    position: absolute;
+    position: relative;
     font-family: 'barlow';
     color: #ce9e5a;
     font-size: 60px;
@@ -532,7 +530,7 @@ body::-webkit-scrollbar-thumb{
     top:62px;
 }
 .PaginaPrincipal__Seccion5--contacttext{
-    position: absolute;
+    position: relative;
     font-family: 'open';
     color: white;
     font-size: 23px;
@@ -544,7 +542,7 @@ body::-webkit-scrollbar-thumb{
     font-weight: 100px;
 }
 .PaginaPrincipal__Seccion5--opening{
-    position: absolute;
+    position: relative;
     font-family: 'barlow';
     color: white;
     font-size: 60px;
@@ -552,7 +550,7 @@ body::-webkit-scrollbar-thumb{
     top:4200px;
 }
 .PaginaPrincipal__Seccion5--hurse{
-    position: absolute;
+    position: relative;
     font-family: 'barlow';
     color: #ce9e5a;
     font-size: 60px;
@@ -560,7 +558,7 @@ body::-webkit-scrollbar-thumb{
     top:62px;
 }
 .PaginaPrincipal__Seccion5--hursetext{
-    position: absolute;
+    position: relative;
     font-family: 'open';
     color: white;
     font-size: 23px;
@@ -572,7 +570,7 @@ body::-webkit-scrollbar-thumb{
     font-weight: 100px;
 }
 .PaginaPrincipal__Seccion5--line{
-    position: absolute;
+    position: relative;
     height: 2px;
     width: 800px;
     background-color: #ce9e5a;
@@ -581,7 +579,7 @@ body::-webkit-scrollbar-thumb{
     left: 550px;
 }
 .PaginaPrincipal__rigths{
-    position: absolute;
+    position: relative;
     font-family: 'open';
     color: white;
     font-size: 20px;
@@ -593,7 +591,7 @@ body::-webkit-scrollbar-thumb{
     font-weight: 100px;
 }
 .PaginaPrincipal__rigths--CL{
-    position: absolute;
+    position: relative;
     font-family: 'open';
     color: #ce9e5a;
     font-size: 20px;
