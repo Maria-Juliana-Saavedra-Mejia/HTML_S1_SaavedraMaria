@@ -35,8 +35,8 @@ body::-webkit-scrollbar-thumb{
 .PaginaPrincipal__Seccion1--img1{
     position: relative;
     top: 0vw;
-    width: 80vw;
-    height: 57vw;
+    width: 97vw;
+    height: 67vw;
     left: 0vw;
 }
 .PaginaPrincipal__Seccion1--logo{
@@ -45,15 +45,15 @@ body::-webkit-scrollbar-thumb{
     color: white;
     font-size: 1.5vw;
     left: 16vw;
-    top:-59vw;
+    top:-69vw;
 }
 .PaginaPrincipal__Seccion1--home{
     position: relative;
     font-family: 'open';
     color: white;
     font-size: 1vw;
-    left: 53vw;
-    top:-61.8vw;
+    left: 63vw;
+    top:-71.8vw;
 }
 .PaginaPrincipal__Seccion1--home :hover{
     text-decoration: underline;
@@ -64,8 +64,8 @@ body::-webkit-scrollbar-thumb{
     font-family: 'open';
     color: white;
     font-size: 1vw;
-    left: 58vw;
-    top:-63vw;
+    left: 68vw;
+    top:-73vw;
 }
 .PaginaPrincipal__Seccion1--about:hover{
     text-decoration: underline;
@@ -76,8 +76,8 @@ body::-webkit-scrollbar-thumb{
     font-family: 'open';
     color: white;
     font-size: 1vw;
-    left: 63vw;
-    top:-64.3vw;
+    left: 73vw;
+    top:-74.3vw;
 }
 .PaginaPrincipal__Seccion1--menu:hover{
     text-decoration: underline;
@@ -88,8 +88,8 @@ body::-webkit-scrollbar-thumb{
     font-family: 'open';
     color: white;
     font-size: 1vw;
-    left: 67.5vw;
-    top:-65.5vw;
+    left: 77.5vw;
+    top:-75.5vw;
 }
 .PaginaPrincipal__Seccion1--contact:hover{
     text-decoration: underline;
@@ -101,8 +101,8 @@ body::-webkit-scrollbar-thumb{
     font-family: 'play';
     color: white;
     font-size: 5vw;
-    top:-60vw;
-    left: 20vw;
+    top:-70vw;
+    left: 25vw;
 }
 
 .PaginaPrincipal__Seccion1--with{
@@ -111,7 +111,7 @@ body::-webkit-scrollbar-thumb{
     color: white;
     font-size: 5vw;
     top:-40vw;
-    left: 18vw;
+    left: 23vw;
 }
 .PaginaPrincipal__Seccion1--shop{
     position: relative;
@@ -120,9 +120,9 @@ body::-webkit-scrollbar-thumb{
     font-size: 1vw;
     top:-40vw;
     text-align: center;
-    left: 36vw;
+    left: 41vw;
     width: 10vw;
-    height: 2vw;
+    height: 2.5vw;
     background-color: #ce9e5a;
     border: #ce9e5a;
     display: flex;
@@ -136,9 +136,9 @@ body::-webkit-scrollbar-thumb{
 .PaginaPrincipal__Seccion2--img2{
     position: relative;
     top: -30vw;
-    width: 45vw;
-    height: 30vw;
-    left: -5vw;
+    width: 50vw;
+    height: 35vw;
+    left: 0vw;
 }
 #PaginaPrincipal__Seccion2--story{
     position: relative;
@@ -146,7 +146,7 @@ body::-webkit-scrollbar-thumb{
     color: white;
     font-size: 4vw;
     top: -55vw;
-    left: 45vw;
+    left: 55vw;
     text-transform: uppercase;
 }
 .PaginaPrincipal__Seccion2--line{
@@ -155,8 +155,8 @@ body::-webkit-scrollbar-thumb{
     width: 10vw;
     background-color: white;
     display: block;
-    top: -22vw;
-    left: 32vw;
+    top: -17vw;
+    left: 42vw;
 }
 .PaginaPrincipal__Seccion2--storyText{
     position: relative;
@@ -164,7 +164,7 @@ body::-webkit-scrollbar-thumb{
     color: white;
     font-size: 1vw;
     top: -53vw;
-    left: 46vw;
+    left: 56vw;
     width: 28vw;
     line-height: 1.5vw;
 }
@@ -175,7 +175,7 @@ body::-webkit-scrollbar-thumb{
     font-size: 1vw;
     top:-52vw;
     text-align: center;
-    left: 46vw;
+    left: 56vw;
     width: 10vw;
     height: 2vw;
     background-color: #ce9e5a;
@@ -193,7 +193,7 @@ body::-webkit-scrollbar-thumb{
     top: -35vw;
     width: 28vw;
     height: 26vw;
-    left: 45vw;
+    left: 55vw;
 }
 .PaginaPrincipal__Seccion3--Perfect{
     position: relative;
@@ -201,7 +201,7 @@ body::-webkit-scrollbar-thumb{
     color: white;
     font-size: 3.5vw;
     top: -60vw;
-    left: 5vw;
+    left: 15vw;
     text-transform: uppercase;
     width:30vw;
 }
@@ -211,7 +211,7 @@ body::-webkit-scrollbar-thumb{
     color: white;
     font-size: 1vw;
     top: -58vw;
-    left: 5vw;
+    left: 15vw;
     width: 28vw;
     line-height: 1.5vw;
 }
@@ -222,7 +222,7 @@ body::-webkit-scrollbar-thumb{
     font-size: 1vw;
     top:-56vw;
     text-align: center;
-    left: 5vw;
+    left: 15vw;
     width: 10vw;
     height: 2vw;
     background-color: #ce9e5a;
@@ -241,14 +241,14 @@ body::-webkit-scrollbar-thumb{
     font-family: 'play';
     color: white;
     font-size: 5vw;
-    top:-35vw;
+    top:-40vw;
     left: 2vw;
 }
 
 .PaginaPrincipal__Seccion4--cuadro1{
     position: relative;
-    height: 35vw;
-    width: 25vw;
+    height: 30vw;
+    width: 20vw;
     border: 0.2vw solid #ce9e5a;
     display: block;
     top:-30vw;
@@ -258,42 +258,33 @@ body::-webkit-scrollbar-thumb{
     position: relative;
     font-family: 'barlow';
     color: white;
-    font-size: 30px;
-    left: 67vw;
-    top:3400px;
+    font-size: 1.5vw;
+    left: 12.5vw;
+    top: -54vw;
 }
 .PaginaPrincipal__Seccion4--espresso1{
     position: relative;
     font-family: 'open';
     color: white;
-    font-size: 23px;
-    top:3550px;
-    left: 67vw;
-    width: 550px;
-    line-height: 30px;
-    font-weight: 100px;
+    font-size: 1vw;
+    top: -50vw;
+    left: 11vw;
 }
 .PaginaPrincipal__Seccion4--chocolate1{
     position: relative;
     font-family: 'open';
     color: white;
-    font-size: 23px;
-    top:3610px;
-    left: 67vw;
-    width: 550px;
-    line-height: 30px;
-    font-weight: 100px;
+    font-size: 1vw;
+    top: -50vw;
+    left: 11vw;
 }
 .PaginaPrincipal__Seccion4--milk1{
     position: relative;
     font-family: 'open';
     color: white;
-    font-size: 23px;
-    top:3670px;
-    left: 67vw;
-    width: 550px;
-    line-height: 30px;
-    font-weight: 100px;
+    font-size: 1vw;
+    top: -50vw;
+    left: 11vw;
 }
 
 .PaginaPrincipal__Seccion4--LearnMore1{
@@ -301,10 +292,10 @@ body::-webkit-scrollbar-thumb{
     font-family: 'open';
     color: black;
     font-size: 1vw;
-    top:3840px;
+    top: -48vw;
     text-align: center;
-    left: 67vw;
-    width: 10vw;
+    left: 11vw;
+    width: 8vw;
     height: 2vw;
     background-color: #ce9e5a;
     border: #ce9e5a;
@@ -315,71 +306,62 @@ body::-webkit-scrollbar-thumb{
 }
 .PaginaPrincipal__Seccion4--img1{
     position: relative;
-    height: 180px;
-    width: 180px;
-    top:3200px;
-    left: 67vw;
+    height: 9vw;
+    width: 9vw;
+    top:-80vw;
+    left: 10vw;
 }
 
 .PaginaPrincipal__Seccion4--cuadro2{
     position: relative;
-    height: 35vw;
-    width: 25vw;
+    height: 30vw;
+    width: 20vw;
     border: 0.2vw solid #ce9e5a;
     display: block;
-    top:-90vw;
-    left: 36vw;
+    top:-84.8vw;
+    left: 38vw;
 }
 .PaginaPrincipal__Seccion4--mocha2{
     position: relative;
     font-family: 'barlow';
     color: white;
-    font-size: 30px;
-    left: 67vw;
-    top:3400px;
+    font-size: 1.5vw;
+    left: 45.5vw;
+    top: -108.5vw;
 }
 .PaginaPrincipal__Seccion4--espresso2{
     position: relative;
     font-family: 'open';
     color: white;
-    font-size: 23px;
-    top:3550px;
-    left: 67vw;
-    width: 550px;
-    line-height: 30px;
-    font-weight: 100px;
+    font-size: 1vw;
+    top: -50vw;
+    left: 11vw;
 }
 .PaginaPrincipal__Seccion4--chocolate2{
     position: relative;
     font-family: 'open';
     color: white;
-    font-size: 23px;
-    top:3610px;
-    left: 67vw;
-    width: 550px;
-    line-height: 30px;
-    font-weight: 100px;
+    font-size: 1vw;
+    top: -50vw;
+    left: 11vw;
 }
 .PaginaPrincipal__Seccion4--milk2{
     position: relative;
     font-family: 'open';
     color: white;
-    font-size: 23px;
-    top:3670px;
-    left: 67vw;
-    width: 550px;
-    line-height: 30px;
-    font-weight: 100px;
+    font-size: 1vw;
+    top: -50vw;
+    left: 11vw;
 }
 .PaginaPrincipal__Seccion4--LearnMore2{
     position: relative;
     font-family: 'open';
     color: black;
     font-size: 1vw;
-    top:3840px;
+    top: -48vw;
     text-align: center;
-    left: 67vw;
-    width: 10vw;
+    left: 11vw;
+    width: 8vw;
     height: 2vw;
     background-color: #ce9e5a;
     border: #ce9e5a;
@@ -390,72 +372,63 @@ body::-webkit-scrollbar-thumb{
 }
 .PaginaPrincipal__Seccion4--img2{
     position: relative;
-    height: 180px;
-    width: 180px; 
-    top:3200px;
-    left: 67vw;
+    height: 9vw;
+    width: 9vw;
+    top:-135vw;
+    left: 43.5vw;
 }
 
 
 .PaginaPrincipal__Seccion4--cuadro3{
     position: relative;
-    height: 35vw;
-    width: 25vw;
+    height: 30vw;
+    width: 20vw;
     border: 0.2vw solid #ce9e5a;
     display: block;
-    top:-150vw;
-    left: 67vw;
+    top:-139.7vw;
+    left: 70vw;
 }
 .PaginaPrincipal__Seccion4--mocha3{
     position: relative;
     font-family: 'barlow';
     color: white;
-    font-size: 30px;
-    left: 67vw;
-    top:3400px;
+    font-size: 1.5vw;
+    left: 78vw;
+    top: -163vw;
 }
 .PaginaPrincipal__Seccion4--espresso3{
     position: relative;
     font-family: 'open';
     color: white;
-    font-size: 23px;
-    top:3550px;
-    left: 67vw;
-    width: 550px;
-    line-height: 30px;
-    font-weight: 100px;
+    font-size: 1vw;
+    top: -50vw;
+    left: 11vw;
 }
 .PaginaPrincipal__Seccion4--chocolate3{
     position: relative;
     font-family: 'open';
     color: white;
-    font-size: 23px;
-    top:3610px;
-    left: 67vw;
-    width: 550px;
-    line-height: 30px;
-    font-weight: 100px;
+    font-size: 1vw;
+    top: -50vw;
+    left: 11vw;
 }
 .PaginaPrincipal__Seccion4--milk3{
     position: relative;
     font-family: 'open';
     color: white;
-    font-size: 23px;
-    top:3670px;
-    left: 67vw;
-    width: 550px;
-    line-height: 30px;
-    font-weight: 100px;
+    font-size: 1vw;
+    top: -50vw;
+    left: 11vw;
 }
 .PaginaPrincipal__Seccion4--LearnMore3{
     position: relative;
     font-family: 'open';
     color: black;
     font-size: 1vw;
-    top:3840px;
+    top: -48vw;
     text-align: center;
-    left: 67vw;
-    width: 10vw;
+    left: 11vw;
+    width: 8vw;
     height: 2vw;
     background-color: #ce9e5a;
     border: #ce9e5a;
@@ -467,10 +440,10 @@ body::-webkit-scrollbar-thumb{
 
 .PaginaPrincipal__Seccion4--img3{
     position: relative;
-    height: 180px;
-    width: 180px; 
-    top:3200px;
-    left: 67vw;
+    height: 9vw;
+    width: 9vw;
+    top:-190vw;
+    left: 76vw;
 }
 .PaginaPrincipal__Seccion4--line{
     position: relative;
