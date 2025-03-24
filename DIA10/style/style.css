@@ -10,6 +10,7 @@
     font-family:'play' ;
     src: url(../fuentes/PlayfairDisplay-Black.ttf);
 }
+
 html{
     scroll-behavior: smooth;
 }
@@ -22,6 +23,7 @@ body{
     background-color: black;
     overflow: scroll;
     padding: 1vw;
+    max-width: 10vw;
 }
 body::-webkit-scrollbar{
     width: 1vw;
@@ -102,7 +104,9 @@ body::-webkit-scrollbar-thumb{
     color: white;
     font-size: 5vw;
     top:-70vw;
-    left: 25vw;
+    left: 18vw;
+    width: 60vw;
+    text-align: center;
 }
 
 .PaginaPrincipal__Seccion1--with{
@@ -110,17 +114,19 @@ body::-webkit-scrollbar-thumb{
     font-family: 'play';
     color: white;
     font-size: 5vw;
-    top:-40vw;
-    left: 23vw;
+    top:-42vw;
+    left: 20vw;
+    width: 60vw;
+    text-align: center;
 }
-.PaginaPrincipal__Seccion1--shop{
+#PaginaPrincipal__Seccion1--shop{
     position: relative;
     font-family: 'open';
     color: black;
     font-size: 1vw;
     top:-40vw;
     text-align: center;
-    left: 41vw;
+    left: 44vw;
     width: 10vw;
     height: 2.5vw;
     background-color: #ce9e5a;
@@ -133,7 +139,7 @@ body::-webkit-scrollbar-thumb{
 
 
 
-.PaginaPrincipal__Seccion2--img2{
+#PaginaPrincipal__Seccion2--img2{
     position: relative;
     top: -30vw;
     width: 50vw;
@@ -148,6 +154,7 @@ body::-webkit-scrollbar-thumb{
     top: -55vw;
     left: 55vw;
     text-transform: uppercase;
+    width: 28vw;
 }
 .PaginaPrincipal__Seccion2--line{
     position: relative;
@@ -318,7 +325,7 @@ body::-webkit-scrollbar-thumb{
     width: 20vw;
     border: 0.2vw solid #ce9e5a;
     display: block;
-    top:-84.8vw;
+    top:-83.1vw;
     left: 38vw;
 }
 .PaginaPrincipal__Seccion4--mocha2{
@@ -327,40 +334,40 @@ body::-webkit-scrollbar-thumb{
     color: white;
     font-size: 1.5vw;
     left: 45.5vw;
-    top: -108.5vw;
+    top: -107.2vw;
 }
 .PaginaPrincipal__Seccion4--espresso2{
     position: relative;
     font-family: 'open';
     color: white;
     font-size: 1vw;
-    top: -50vw;
-    left: 11vw;
+    top: -103.3vw;
+    left: 44vw;
 }
 .PaginaPrincipal__Seccion4--chocolate2{
     position: relative;
     font-family: 'open';
     color: white;
     font-size: 1vw;
-    top: -50vw;
-    left: 11vw;
+    top: -103.3vw;
+    left: 44vw;
 }
 .PaginaPrincipal__Seccion4--milk2{
     position: relative;
     font-family: 'open';
     color: white;
     font-size: 1vw;
-    top: -50vw;
-    left: 11vw;
+    top: -103.3vw;
+    left: 44vw;
 }
 .PaginaPrincipal__Seccion4--LearnMore2{
     position: relative;
     font-family: 'open';
     color: black;
     font-size: 1vw;
-    top: -48vw;
+    top: -100.6vw;
     text-align: center;
-    left: 11vw;
+    left: 44vw;
     width: 8vw;
     height: 2vw;
     background-color: #ce9e5a;
@@ -374,7 +381,7 @@ body::-webkit-scrollbar-thumb{
     position: relative;
     height: 9vw;
     width: 9vw;
-    top:-135vw;
+    top:-133vw;
     left: 43.5vw;
 }
 
@@ -385,7 +392,7 @@ body::-webkit-scrollbar-thumb{
     width: 20vw;
     border: 0.2vw solid #ce9e5a;
     display: block;
-    top:-139.7vw;
+    top:-135.99vw;
     left: 70vw;
 }
 .PaginaPrincipal__Seccion4--mocha3{
@@ -394,40 +401,40 @@ body::-webkit-scrollbar-thumb{
     color: white;
     font-size: 1.5vw;
     left: 78vw;
-    top: -163vw;
+    top: -160vw;
 }
 .PaginaPrincipal__Seccion4--espresso3{
     position: relative;
     font-family: 'open';
     color: white;
     font-size: 1vw;
-    top: -50vw;
-    left: 11vw;
+    top: -156vw;
+    left: 76.5vw;
 }
 .PaginaPrincipal__Seccion4--chocolate3{
     position: relative;
     font-family: 'open';
     color: white;
     font-size: 1vw;
-    top: -50vw;
-    left: 11vw;
+    top: -156vw;
+    left: 76.5vw;
 }
 .PaginaPrincipal__Seccion4--milk3{
     position: relative;
     font-family: 'open';
     color: white;
     font-size: 1vw;
-    top: -50vw;
-    left: 11vw;
+    top: -156vw;
+    left: 76.5vw;
 }
 .PaginaPrincipal__Seccion4--LearnMore3{
     position: relative;
     font-family: 'open';
     color: black;
     font-size: 1vw;
-    top: -48vw;
+    top: -154vw;
     text-align: center;
-    left: 11vw;
+    left: 76.5vw;
     width: 8vw;
     height: 2vw;
     background-color: #ce9e5a;
@@ -442,131 +449,125 @@ body::-webkit-scrollbar-thumb{
     position: relative;
     height: 9vw;
     width: 9vw;
-    top:-190vw;
+    top:-186vw;
     left: 76vw;
 }
 .PaginaPrincipal__Seccion4--line{
     position: relative;
-    height: 2px;
-    width: 800px;
-    background-color: #ce9e5a;
+    height: 0.2vw;
+    width: 45vw;
+    background-color: white;
     display: block;
-    top:4050px;
-    left: 67vw;
+    top: -153vw;
+    left: 25vw;
 }
 
 
-.PaginaPrincipal__Seccion5--about{
+#PaginaPrincipal__Seccion5--about{
     position: relative;
     font-family: 'barlow';
     color: white;
-    font-size: 60px;
-    left: 67vw;
-    top:4200px;
+    font-size: 3vw;
+    left: 15vw;
+    top:-148vw;
 }
 .PaginaPrincipal__Seccion5--us1{
     position: relative;
     font-family: 'barlow';
     color: #ce9e5a;
-    font-size: 60px;
-    left: 67vw;
-    top:62px;
+    font-size: 3vw;
+    left: 9vw;
+    top:-6.49vw;
 
 }
 .PaginaPrincipal__Seccion5--abouttext{
     position: relative;
     font-family: 'open';
     color: white;
-    font-size: 23px;
+    font-size: 1vw;
+    top: -150vw;
+    left: 13vw;
+    width: 20vw;
+    line-height: 1.5vw;
     text-align: center;
-    top:4370px;
-    left: 67vw;
-    width: 500px;
-    line-height: 30px;
-    font-weight: 100px;
 }
 #PaginaPrincipal__Seccion5--contact{
     position: relative;
     font-family: 'barlow';
     color: white;
-    font-size: 60px;
-    left: 67vw;
-    top:4200px;
+    font-size: 3vw;
+    left: 40vw;
+    top:-167.2vw;
 }
 .PaginaPrincipal__Seccion5--us2{
     position: relative;
     font-family: 'barlow';
     color: #ce9e5a;
-    font-size: 60px;
-    left: 67vw;
-    top:62px;
+    font-size: 3vw;
+    left: 12vw;
+    top:-6.49vw;
 }
 .PaginaPrincipal__Seccion5--contacttext{
     position: relative;
     font-family: 'open';
     color: white;
-    font-size: 23px;
+    font-size: 1vw;
+    top: -168.7vw;
+    left: 38vw;
+    width: 20vw;
+    line-height: 1.5vw;
     text-align: center;
-    top:4370px;
-    left: 67vw;
-    width: 500px;
-    line-height: 30px;
-    font-weight: 100px;
 }
 .PaginaPrincipal__Seccion5--opening{
     position: relative;
     font-family: 'barlow';
     color: white;
-    font-size: 60px;
-    left: 67vw;
-    top:4200px;
+    font-size: 3vw;
+    left: 65vw;
+    top:-185.5vw;
 }
 .PaginaPrincipal__Seccion5--hurse{
     position: relative;
     font-family: 'barlow';
     color: #ce9e5a;
-    font-size: 60px;
-    left: 67vw;
-    top:62px;
+    font-size: 3vw;
+    left: 12vw;
+    top:-6.49vw;
 }
 .PaginaPrincipal__Seccion5--hursetext{
     position: relative;
     font-family: 'open';
     color: white;
-    font-size: 23px;
+    font-size: 1vw;
+    top: -189.7vw;
+    left: 64vw;
+    width: 20vw;
+    line-height: 1.5vw;
     text-align: center;
-    top:4370px;
-    left: 67vw;
-    width: 500px;
-    line-height: 30px;
-    font-weight: 100px;
 }
 .PaginaPrincipal__Seccion5--line{
     position: relative;
-    height: 2px;
-    width: 800px;
-    background-color: #ce9e5a;
+    height: 0.2vw;
+    width: 45vw;
+    background-color: white;
     display: block;
-    top:4700px;
-    left: 67vw;
+    top: -181vw;
+    left: 25vw;
 }
 .PaginaPrincipal__rigths{
     position: relative;
     font-family: 'open';
     color: white;
-    font-size: 20px;
-    text-align: center;
-    top:4710px;
-    left: 67vw;
-    width: 500px;
-    line-height: 30px;
-    font-weight: 100px;
+    font-size: 1vw;
+    left: 38vw;
+    top:-176vw;
+    width: 28vw;
 }
 .PaginaPrincipal__rigths--CL{
     position: relative;
     font-family: 'open';
     color: #ce9e5a;
-    font-size: 20px;
-    left: 67vw;
-    top:0px;
+    font-size: 1vw;
+    left: 17.5vw;
+    top:-2.1vw;
 }
