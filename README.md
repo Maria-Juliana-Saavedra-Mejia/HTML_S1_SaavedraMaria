@@ -15,6 +15,7 @@ En este repositorio se encuentran todos los trabajos y anotaciones de la estudia
 | DIA8 |https://github.com/Maria-Juliana-Saavedra-Mejia/HTML_S1_SaavedraMaria/tree/master/DIA8|
 | DIA9 |https://github.com/Maria-Juliana-Saavedra-Mejia/HTML_S1_SaavedraMaria/tree/master/DIA9|
 | DIA10 |https://github.com/Maria-Juliana-Saavedra-Mejia/HTML_S1_SaavedraMaria/tree/master/DIA10|
+| DIA11 |https://github.com/Maria-Juliana-Saavedra-Mejia/HTML_S1_SaavedraMaria/tree/master/DIA11|
 
 
 # **Instalación**
@@ -52,3 +53,6 @@ Se encuentra la explicación de modelo de cajas.
 
 > [**Dia10**]
 Se encuentra el trabajo de HTML - CONTENIDOS con medidas relativas.
+
+> [**Dia11**]
+Se encuentra el trabajo de HTML - GRID.
