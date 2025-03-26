@@ -1,78 +1,62 @@
 body{
-    display: grid;
     background-color: white;
 }
 .grid-container1{
-    padding: 1vw;
-    align-items: center;
     display: grid;
-    grid-row-gap:1vw;
-    grid-column-gap:1vw;
-    grid-template-columns: repeat(2, 1fr);
-    grid-template-rows: 1fr 1fr 2fr;
+    width: 73vw;
     background-color: black;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto;
     border-radius: 4%;
 }
 
 .grid-container2{
-    padding: 1vw;
-    align-items: center;
+    width: 73vw;
     display: grid;
-    grid-row-gap:1vw;
-    grid-column-gap:1vw;
-    grid-template-columns: repeat(2, 1fr);
-    grid-template-rows: 1fr 1fr ;
     background-color: black;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto;
     border-radius: 4%;
 }
+
 
 
 .grid-container1>div{
     padding: 1vw;
-    background-color: white;
-    font: 100px solid;
-    border-radius: 4% ;
+    background-color: transparent;
 }
 
 .grid-container2>div{
     padding: 1vw;
-    background-color: white;
-    font-size: 100px;
-    border-radius: 4% ;
+    background-color: transparent;
 }
 
 .grid-container1--img1{
-    grid-column-start: 1;
-    grid-column-end: 1;
-    grid-row-start: 1;
-    grid-row-end: 1;
     border-radius: 4%;
+    width: 20vw ;
+    grid-column: 1/2;
 }
 
 .grid-container1--img2{
-    grid-column-start: 2;
-    grid-column-end: 2;
-    grid-row-start: 1;
-    grid-row-end: 3;
     border-radius: 4%;
+    width: 20vw;
+    grid-column: 1/2;
+    grid-row-start: 2;
+    grid-row-end: 2;
 }
 
 .grid-container1--img3{
-    grid-row-start: 2;
-    grid-row-end: 3;
-    grid-column-start: 1;
-    grid-column-end: 1;
     border-radius: 4%;
+    width: 20vw;
+    grid-column: 2/3;
+    grid-row: 1/3;
 }
 .grid-container1--img4{
-    grid-row-start: 3;
-    grid-row-end: 5;
-    grid-column-start: 1;
-    grid-column-end: 4;
     border-radius: 4%;
+    width: 40vw;
+    grid-column: 1/3;
+    grid-row: 3/4;
 }
-
-
 
 
 .grid-container2--img1{
@@ -81,12 +65,14 @@ body{
     grid-row-start: 1;
     grid-row-end: 1;
     border-radius: 4% ;
+    width: 20vw ;
 }
 .grid-container2--img2{
     grid-column-start: 2;
     grid-row-start: 1;
     grid-row-end: 3;
     border-radius: 4%;
+    width: 20vw ;
 }
 .grid-container2--img3{
 
@@ -95,4 +81,5 @@ body{
     grid-column-start: 1;
     grid-column-end: 1;
     border-radius: 4%;
+    width: 20vw ;
 }
