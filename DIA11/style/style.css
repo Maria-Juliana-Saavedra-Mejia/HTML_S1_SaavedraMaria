@@ -5,23 +5,22 @@ body{
 .grid-container1{
     align-items: center;
     display: grid;
-    width: 73vw;
+    width: 99vmax;
     background-color: black;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 1fr 1fr 1fr;
     border-radius: 4%;
-    height: 97vw;
-    margin-left: 13vw;
+    height: 120vmax;
 }
 
 .grid-container2{
-    width: 73vw;
+    width: 99vw;
     display: grid;
     background-color: black;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: auto;
     border-radius: 4%;
-    margin-left: 13vw;
+
 }
 
 
@@ -38,8 +37,8 @@ body{
 
 .grid-container1--img1{
     border-radius: 4%;
-    width: 34vw ;
-    height: 25vw;
+    width: 42vmax ;
+    height: 30vmax;
 }
 .ele1{
     grid-column: 1/2;
@@ -47,8 +46,8 @@ body{
 
 .grid-container1--img2{
     border-radius: 4%;
-    width: 34vw;
-    height: 25vw;
+    width: 42vmax ;
+    height: 30vmax;
 }
 .ele2{
     grid-column: 2/2;
@@ -57,8 +56,8 @@ body{
 
 .grid-container1--img3{
     border-radius: 4%;
-    width: 34vw;
-    height: 52.5vw;
+    width: 42vmax ;
+    height: 64vmax;
 }
 .ele3{
     grid-column: 1/1;
@@ -67,7 +66,7 @@ body{
 
 .grid-container1--img4{
     border-radius: 4%;
-    width: 71vw;
+    width: 95vmax;
 
 }
 .ele4{
@@ -78,8 +77,8 @@ body{
 
 .grid-container2--img1{
     border-radius: 4% ;
-    width: 34vw;
-    height: 25vw;
+    width: 42vmax ;
+    height: 30vmax;
 }
 .ele5{
     grid-column: 1/2;
@@ -87,8 +86,8 @@ body{
 .grid-container2--img2{
 
     border-radius: 4%;
-    width: 34vw;
-    height: 52vw;
+    width: 42vmax ;
+    height: 65vmax;
 }
 .ele6{
     grid-column: 2/2;
@@ -97,8 +96,8 @@ body{
 .grid-container2--img3{
 
     border-radius: 4%;
-    width: 34vw;
-    height: 25vw;
+    width: 42vmax ;
+    height: 30vmax;
 }
 .ele7{
     grid-column: 1/2;
