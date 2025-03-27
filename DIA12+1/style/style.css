@@ -1,1 +1,198 @@
+@font-face{
+    font-family: 'numeritos';
+    src: url(../fuentes/rainyhearts.ttf);
+}
+a{
+    font-family: 'numeritos';
+    font-size: 5vw;
+}
+HTML,body{
+    margin:0;
+    background: url(../img/scenery-of-forest-animals-beside-the-lake-free-vector.jpg);
+    background-repeat: no-repeat;
+    background-size: 100vw;   
+}
+.sol{
+    position: relative;
+    height: 15vw;
+    width: 15vw;
+    left: 30vw;
+}
+.one{
+    position: relative;
+    width: 6vw;
+    height: 5vw;
+    text-align: center;
+    border:0.1vw solid black;
+    background-color: white;
+    top: 5vw;
+    left: 42vw;
+}
+.two{
+    position: relative;
+    width: 6vw;
+    height: 5vw;
+    text-align: center;
+    border:0.1vw solid black;
+    background-color: white;
+    top: -0.2vw;
+    left: 42vw;
+}
+.three{
+    position: relative;
+    width: 6vw;
+    height: 5vw;
+    text-align: center;
+    border:0.1vw solid black;
+    background-color: white;
+    top: -5.3vw;
+    left: 42vw;
+}
+.accion{
+    position: relative;
+    width: 16vw;
+    height: 5vw;
+    text-align: center;
+    border:0.1vw solid black;
+    background-color: white;
+    top: -10.4vw;
+    left: 36vw;
+}
+.nube{
+    position: relative;
+    height: 40vw;
+    width: 40vw;
+    top: -20vw;
+    left: -6vw;
+}
+.flor{
+    position: relative;
+    height: 15vw;
+    width: 15vw;
+    top: 8.5vw;
+    left: 18vw;
+}
+
+.GotaDeAgua1{
+    position: relative;
+    height: 3vw;
+    width: 3vw;
+    top: -19vw;
+    left: 1.5vw;
+}
+.GotaDeAgua2{
+    position: relative;
+    height: 3vw;
+    width: 3vw;
+    top: -22vw;
+    left: 4vw;
+}
+.GotaDeAgua3{
+    position: relative;
+    height: 3vw;
+    width: 3vw;
+    top: -25vw;
+    left: 6.5vw;
+}
+.GotaDeAgua4{
+    position: relative;
+    height: 3vw;
+    width: 3vw;
+    top: -28vw;
+    left: 9vw;
+}
+.GotaDeAgua5{
+    position: relative;
+    height: 3vw;
+    width: 3vw;
+    top: -31vw;
+    left: 11.5vw;
+}
+.GotaDeAgua6{
+    position: relative;
+    height: 3vw;
+    width: 3vw;
+    top: -34vw;
+    left: 14vw;
+}
+.GotaDeAgua7{
+    position: relative;
+    height: 3vw;
+    width: 3vw;
+    top: -37vw;
+    left: 16.5vw;
+}
+.GotaDeAgua8{
+    position: relative;
+    height: 3vw;
+    width: 3vw;
+    top: -40vw;
+    left: 19vw;
+}
+.GotaDeAgua9{
+    position: relative;
+    height: 3vw;
+    width: 3vw;
+    top: -43vw;
+    left: 21.5vw;
+}
+
+.GotaDeAgua10{
+    position: relative;
+    height: 3vw;
+    width: 3vw;
+    top: -43vw;
+    left: 3vw;
+}
+.GotaDeAgua11{
+    position: relative;
+    height: 3vw;
+    width: 3vw;
+    top: -46vw;
+    left: 5.5vw;
+}
+.GotaDeAgua12{
+    position: relative;
+    height: 3vw;
+    width: 3vw;
+    top: -49vw;
+    left: 8vw;
+}
+.GotaDeAgua13{
+    position: relative;
+    height: 3vw;
+    width: 3vw;
+    top: -52vw;
+    left: 10.5vw;
+}
+.GotaDeAgua14{
+    position: relative;
+    height: 3vw;
+    width: 3vw;
+    top: -55vw;
+    left: 13vw;
+}
+.GotaDeAgua15{
+    position: relative;
+    height: 3vw;
+    width: 3vw;
+    top: -58vw;
+    left: 15.5vw;
+}
+
+.GotaDeAgua16{
+    position: relative;
+    height: 3vw;
+    width: 3vw;
+    top: -61vw;
+    left: 18vw;
+}.GotaDeAgua17{
+    position: relative;
+    height: 3vw;
+    width: 3vw;
+    top: -64vw;
+    left: 20.5vw;
+}
+
+
 
