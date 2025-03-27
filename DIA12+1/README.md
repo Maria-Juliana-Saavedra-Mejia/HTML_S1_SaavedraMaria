@@ -5,7 +5,7 @@ En este repositorio se encuentra el trabajo HTML - ANIMACIONES creado por la Cam
 
 | Modulo | Contenido |
 |--|--|
-| index |hhttps://github.com/Maria-Juliana-Saavedra-Mejia/HTML_S1_SaavedraMaria/blob/master/DIA12%2B1/index.html|
+| index |https://github.com/Maria-Juliana-Saavedra-Mejia/HTML_S1_SaavedraMaria/blob/master/DIA12%2B1/index.html|
 | Imágenes |https://github.com/Maria-Juliana-Saavedra-Mejia/HTML_S1_SaavedraMaria/tree/master/DIA12%2B1/img|
 | Style |https://github.com/Maria-Juliana-Saavedra-Mejia/HTML_S1_SaavedraMaria/tree/master/DIA12%2B1/style|
 | Link Pagina |https://maria-juliana-saavedra-mejia.github.io/HTML_S1_SaavedraMaria/DIA12%2B1/|
