@@ -1,198 +1,1955 @@
-@font-face{
+@font-face {
     font-family: 'numeritos';
     src: url(../fuentes/rainyhearts.ttf);
 }
-a{
+
+a {
     font-family: 'numeritos';
     font-size: 5vw;
 }
-HTML,body{
-    margin:0;
+
+HTML,
+body {
+    margin: 0;
     background: url(../img/scenery-of-forest-animals-beside-the-lake-free-vector.jpg);
+    background-size: 100vw;
     background-repeat: no-repeat;
-    background-size: 100vw;   
 }
-.sol{
+
+.sol {
     position: relative;
     height: 15vw;
     width: 15vw;
     left: 30vw;
+    animation-name: s;
+    animation-duration: 30s;
+    animation-iteration-count: infinite;
 }
-.one{
+
+@keyframes s {
+    0%, 30% {
+        opacity: 1;
+    }
+    40% , 70%{
+        opacity: 0.6;
+    }
+    80%, 100% {
+
+        opacity: 1;
+    }
+}
+
+.one {
     position: relative;
     width: 6vw;
     height: 5vw;
     text-align: center;
-    border:0.1vw solid black;
+    border: 0.1vw solid black;
     background-color: white;
     top: 5vw;
     left: 42vw;
+    opacity: 0;
+    animation-name: o;
+    animation-duration: 30s;
+    animation-delay: 5s;
+    animation-iteration-count: infinite;
 }
-.two{
+
+@keyframes o {
+    0% {
+        top: 5vw;
+        left: 42vw;
+        opacity: 1;
+    }
+
+    5% {
+        opacity: 0;
+    }
+
+    100% {
+        top: 5vw;
+        left: 42vw;
+        opacity: 0;
+    }
+}
+
+.two {
     position: relative;
     width: 6vw;
     height: 5vw;
     text-align: center;
-    border:0.1vw solid black;
+    border: 0.1vw solid black;
     background-color: white;
     top: -0.2vw;
     left: 42vw;
+    opacity: 0;
+    animation-name: t;
+    animation-duration: 30s;
+    animation-delay: 3s;
+    animation-iteration-count: infinite;
+
 }
-.three{
+
+@keyframes t {
+    0% {
+        top: -0.2vw;
+        left: 42vw;
+        opacity: 1;
+    }
+
+    5% {
+        opacity: 0;
+    }
+
+    100% {
+        top: -0.2vw;
+        left: 42vw;
+        opacity: 0;
+    }
+}
+
+.three {
     position: relative;
     width: 6vw;
     height: 5vw;
     text-align: center;
-    border:0.1vw solid black;
+    border: 0.1vw solid black;
     background-color: white;
     top: -5.3vw;
     left: 42vw;
+    opacity: 0;
+    animation-name: th;
+    animation-delay: 1s;
+    animation-duration: 30s;
+    animation-iteration-count: infinite;
 }
-.accion{
+
+@keyframes th {
+    0% {
+        top: -5.3vw;
+        left: 42vw;
+        opacity: 1;
+    }
+
+    5% {
+        opacity: 0;
+    }
+
+    100% {
+        top: -5.3vw;
+        left: 42vw;
+        opacity: 0;
+    }
+}
+
+.accion {
     position: relative;
     width: 16vw;
     height: 5vw;
     text-align: center;
-    border:0.1vw solid black;
+    border: 0.1vw solid black;
     background-color: white;
     top: -10.4vw;
     left: 36vw;
+    opacity: 0;
+    animation-name: th;
+    animation-delay: 6s;
+    animation-duration: 30s;
+    animation-iteration-count: infinite;
+
 }
-.nube{
+
+@keyframes act {
+    0%, 3% {
+        opacity: 1;
+    }
+
+    8% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 0;
+    }
+}
+
+.nube {
     position: relative;
     height: 40vw;
     width: 40vw;
     top: -20vw;
     left: -6vw;
+    animation-name: nu;
+    animation-duration: 30s;
+    animation-iteration-count: infinite;
+    opacity: 0;
 }
-.flor{
+
+@keyframes nu {
+    0%, 30% {
+        position: relative;
+        width: 40vw;
+        height: 40vw;
+        top: -20vw;
+        left: 100vw;
+        opacity: 0;
+    }
+
+    40%,
+    70% {
+        position: relative;
+        width: 40vw;
+        height: 40vw;
+        top: -20vw;
+        left: -6vw;
+        opacity: 1;
+    }
+
+    80%,100% {
+        position: relative;
+        width: 40vw;
+        height: 40vw;
+        top: -20vw;
+        left: -100vw;
+        opacity: 0;
+    }
+
+}
+
+.flor {
     position: relative;
     height: 15vw;
     width: 15vw;
     top: 8.5vw;
     left: 18vw;
+    animation-name: f;
+    animation-duration: 30s;
+    animation-iteration-count: infinite;
+    opacity: 0;
+
 }
 
-.GotaDeAgua1{
+@keyframes f {
+    0%, 75% {
+        opacity: 0;
+    }
+
+    80%, 100% {
+        opacity: 1;
+    }
+
+}
+
+.GotaDeAgua1 {
     position: relative;
     height: 3vw;
     width: 3vw;
     top: -19vw;
     left: 1.5vw;
+    animation-name: g1;
+    animation-duration: 60s;
+    animation-iteration-count: infinite;
+    opacity: 0;
 }
-.GotaDeAgua2{
+
+@keyframes g1 {
+    0%,19% {
+        top: -19vw;
+        opacity: 0;
+    }
+    20%{
+        top: -19vw;
+        opacity: 1;
+    }
+    25% {
+        opacity: 1;
+        top: -0vw;
+    }
+
+    25.1%{
+        opacity:0;
+        top: -19vw;
+    }
+    25.3%{
+        top: -19vw;
+        opacity: 1;
+    }
+    31% {
+        opacity: 1;
+        top: -0vw;
+    }
+    31.1%{
+        opacity:0;
+        top: -19vw;
+    }
+    31.3%{
+        top: -19vw;
+        opacity: 1;
+    }
+    35% {
+        opacity: 1;
+        top: -0vw;
+    }
+    36%,38% {
+        top: -0vw;
+        opacity: 0;
+    }
+
+    0%,49% {
+        top: -19vw;
+        opacity: 0;
+    }
+
+    69% {
+        top: -19vw;
+        opacity: 0;
+    }
+
+    70%{
+        top: -19vw;
+        opacity: 1;
+    }
+    75% {
+        opacity: 1;
+        top: -0vw;
+    }
+
+    75.1%{
+        opacity:0;
+        top: -19vw;
+    }
+    75.3%{
+        top: -19vw;
+        opacity: 1;
+    }
+    79% {
+        opacity: 1;
+        top: -0vw;
+    }
+    79.1%{
+        opacity:0;
+        top: -19vw;
+    }
+    79.3%{
+        top: -19vw;
+        opacity: 1;
+    }
+    83% {
+        opacity: 1;
+        top: -0vw;
+    }
+
+    84%,100% {
+        top: -19vw;
+        opacity: 0;
+    }
+}
+
+
+.GotaDeAgua2 {
     position: relative;
     height: 3vw;
     width: 3vw;
     top: -22vw;
     left: 4vw;
+    animation-name: g2;
+    animation-duration: 60s;
+    animation-iteration-count: infinite;
+    opacity: 0;
 }
-.GotaDeAgua3{
+
+@keyframes g2 {
+    0%,19% {
+        top: -22vw;
+        opacity: 0;
+    }
+
+    20%{
+        top: -22vw;
+        opacity: 1;
+    }
+    25% {
+        opacity: 1;
+        top: -2vw;
+    }
+
+    25.1%{
+        opacity:0;
+        top: -22vw;
+    }
+    25.3%{
+        top: -22vw;
+        opacity: 1;
+    }
+    31% {
+        opacity: 1;
+        top: -2vw;
+    }
+    31.1%{
+        opacity:2;
+        top: -22vw;
+    }
+    31.3%{
+        top: -22vw;
+        opacity: 1;
+    }
+    35% {
+        opacity: 1;
+        top: -2vw;
+    }
+    36%,68% {
+        top: -2vw;
+        opacity: 0;
+    }
+    69% {
+        top:  -22vw;
+        opacity: 0;
+    }
+
+    70%{
+        top:  -22vw;
+        opacity: 1;
+    }
+    75% {
+        opacity: 1;
+        top: -2vw;
+    }
+
+    75.1%{
+        opacity:0;
+        top: -22vw;
+    }
+    75.3%{
+        top: -22vw;
+        opacity: 1;
+    }
+    79% {
+        opacity: 1;
+        top: -2vw;
+    }
+    79.1%{
+        opacity:0;
+        top: -22vw;
+    }
+    79.3%{
+        top: -22vw;
+        opacity: 1;
+    }
+    83% {
+        opacity: 1;
+        top: -2vw;
+    }
+
+    84%,100% {
+        top: -2vw;
+        opacity: 0;
+    }
+}
+
+
+
+
+.GotaDeAgua3 {
     position: relative;
     height: 3vw;
     width: 3vw;
     top: -25vw;
     left: 6.5vw;
+    animation-name: g3;
+    animation-duration: 60s;
+    animation-iteration-count: infinite;
+    opacity: 0;
 }
-.GotaDeAgua4{
+
+@keyframes g3 {
+    0%,19% {
+        top: -25vw;
+        opacity: 0;
+    }
+
+    20%{
+        top: -25vw;
+        opacity: 1;
+    }
+    25% {
+        opacity: 1;
+        top: -5vw;
+    }
+
+    25.1%{
+        opacity:0;
+        top: -25vw;
+    }
+    25.3%{
+        top: -25vw;
+        opacity: 1;
+    }
+    31% {
+        opacity: 1;
+        top: -5vw;
+    }
+    31.1%{
+        opacity:2;
+        top: -25vw;
+    }
+    31.3%{
+        top: -25vw;
+        opacity: 1;
+    }
+    35% {
+        opacity: 1;
+        top: -5vw;
+    }
+    36%,68% {
+        top: -5vw;
+        opacity: 0;
+    }
+    69% {
+        top:  -25vw;
+        opacity: 0;
+    }
+
+    70%{
+        top:  -25vw;
+        opacity: 1;
+    }
+    75% {
+        opacity: 1;
+        top: -5vw;
+    }
+
+    75.1%{
+        opacity:0;
+        top: -25vw;
+    }
+    75.3%{
+        top: -25vw;
+        opacity: 1;
+    }
+    79% {
+        opacity: 1;
+        top: -5vw;
+    }
+    79.1%{
+        opacity:0;
+        top: -25vw;
+    }
+    79.3%{
+        top: -25vw;
+        opacity: 1;
+    }
+    83% {
+        opacity: 1;
+        top: -5vw;
+    }
+
+    84%,100% {
+        top: -5vw;
+        opacity: 0;
+    }
+}
+.GotaDeAgua4 {
     position: relative;
     height: 3vw;
     width: 3vw;
     top: -28vw;
     left: 9vw;
+    animation-name: g4;
+    animation-duration: 60s;
+    animation-iteration-count: infinite;
+    opacity: 0;
 }
-.GotaDeAgua5{
+
+@keyframes g4 {
+    0%,19% {
+        top: -28vw;
+        opacity: 0;
+    }
+
+    20%{
+        top: -28vw;
+        opacity: 1;
+    }
+    25% {
+        opacity: 1;
+        top: -8vw;
+    }
+
+    25.1%{
+        opacity:0;
+        top: -28vw;
+    }
+    25.3%{
+        top: -28vw;
+        opacity: 1;
+    }
+    31% {
+        opacity: 1;
+        top: -8vw;
+    }
+    31.1%{
+        opacity:2;
+        top: -28vw;
+    }
+    31.3%{
+        top: -28vw;
+        opacity: 1;
+    }
+    35% {
+        opacity: 1;
+        top: -8vw;
+    }
+
+    36%,68% {
+        top: -8vw;
+        opacity: 0;
+    }
+    69% {
+        top:  -28vw;
+        opacity: 0;
+    }
+
+    70%{
+        top:  -28vw;
+        opacity: 1;
+    }
+    75% {
+        opacity: 1;
+        top: -8vw;
+    }
+
+    75.1%{
+        opacity:0;
+        top: -28vw;
+    }
+    75.3%{
+        top: -28vw;
+        opacity: 1;
+    }
+    79% {
+        opacity: 1;
+        top: -8vw;
+    }
+    79.1%{
+        opacity:0;
+        top: -28vw;
+    }
+    79.3%{
+        top: -28vw;
+        opacity: 1;
+    }
+    83% {
+        opacity: 1;
+        top: -8vw;
+    }
+
+    84%,100% {
+        top: -8vw;
+        opacity: 0;
+    }
+}
+
+.GotaDeAgua5 {
     position: relative;
     height: 3vw;
     width: 3vw;
     top: -31vw;
     left: 11.5vw;
+    animation-name: g5;
+    animation-duration: 60s;
+    animation-iteration-count: infinite;
+    opacity: 0;
 }
-.GotaDeAgua6{
+
+@keyframes g5 {
+    0%,19% {
+        top: -31vw;
+        opacity: 0;
+    }
+
+    20%{
+        top: -31vw;
+        opacity: 1;
+    }
+    25% {
+        opacity: 1;
+        top: -11vw;
+    }
+
+    25.1%{
+        opacity:0;
+        top: -31vw;
+    }
+    25.3%{
+        top: -31vw;
+        opacity: 1;
+    }
+    31% {
+        opacity: 1;
+        top: -11vw;
+    }
+    31.1%{
+        opacity:2;
+        top: -31vw;
+    }
+    31.3%{
+        top: -31vw;
+        opacity: 1;
+    }
+    35% {
+        opacity: 1;
+        top: -11vw;
+    }
+    36%,68% {
+        top: -11vw;
+        opacity: 0;
+    }
+    69% {
+        top:  -31vw;
+        opacity: 0;
+    }
+
+    70%{
+        top:  -31vw;
+        opacity: 1;
+    }
+    75% {
+        opacity: 1;
+        top: -11vw;
+    }
+
+    75.1%{
+        opacity:0;
+        top: -31vw;
+    }
+    75.3%{
+        top: -31vw;
+        opacity: 1;
+    }
+    79% {
+        opacity: 1;
+        top: -11vw;
+    }
+    79.1%{
+        opacity:0;
+        top: -31vw;
+    }
+    79.3%{
+        top: -31vw;
+        opacity: 1;
+    }
+    83% {
+        opacity: 1;
+        top: -11vw;
+    }
+
+    84%,100% {
+        top: -11vw;
+        opacity: 0;
+    }
+}
+
+.GotaDeAgua6 {
     position: relative;
     height: 3vw;
     width: 3vw;
     top: -34vw;
     left: 14vw;
+    animation-name: g6;
+    animation-duration: 60s;
+    animation-iteration-count: infinite;
+    opacity: 0;
 }
-.GotaDeAgua7{
+
+@keyframes g6 {
+    0%,19% {
+        top: -34vw;
+        opacity: 0;
+    }
+    20%{
+        top: -34vw;
+        opacity: 1;
+    }
+    25% {
+        opacity: 1;
+        top: -14vw;
+    }
+
+    25.1%{
+        opacity:0;
+        top: -34vw;
+    }
+    25.3%{
+        top: -34vw;
+        opacity: 1;
+    }
+    31% {
+        opacity: 1;
+        top: -14vw;
+    }
+    31.1%{
+        opacity:2;
+        top: -34vw;
+    }
+    31.3%{
+        top: -34vw;
+        opacity: 1;
+    }
+    35% {
+        opacity: 1;
+        top: -14vw;
+    }
+    36%,68% {
+        top: -14vw;
+        opacity: 0;
+    }
+    69% {
+        top:  -34vw;
+        opacity: 0;
+    }
+
+    70%{
+        top:  -34vw;
+        opacity: 1;
+    }
+    75% {
+        opacity: 1;
+        top: -14vw;
+    }
+
+    75.1%{
+        opacity:0;
+        top: -34vw;
+    }
+    75.3%{
+        top: -34vw;
+        opacity: 1;
+    }
+    79% {
+        opacity: 1;
+        top: -14vw;
+    }
+    79.1%{
+        opacity:0;
+        top: -34vw;
+    }
+    79.3%{
+        top: -34vw;
+        opacity: 1;
+    }
+    83% {
+        opacity: 1;
+        top: -14vw;
+    }
+
+    84%,100% {
+        top: -14vw;
+        opacity: 0;
+    }
+}
+
+
+
+.GotaDeAgua7 {
     position: relative;
     height: 3vw;
     width: 3vw;
     top: -37vw;
     left: 16.5vw;
+    animation-name: g7;
+    animation-duration: 60s;
+    animation-iteration-count: infinite;
+    opacity: 0;
 }
-.GotaDeAgua8{
+
+@keyframes g7 {
+    0%,19% {
+        top: -37vw;
+        opacity: 0;
+    }
+
+    20%{
+        top: -37vw;
+        opacity: 1;
+    }
+    25% {
+        opacity: 1;
+        top: -17vw;
+    }
+
+    25.1%{
+        opacity:0;
+        top: -37vw;
+    }
+    25.3%{
+        top: -37vw;
+        opacity: 1;
+    }
+    31% {
+        opacity: 1;
+        top: -17vw;
+    }
+    31.1%{
+        opacity:2;
+        top: -37vw;
+    }
+    32.3%{
+        top: -37vw;
+        opacity: 1;
+    }
+    35% {
+        opacity: 1;
+        top: -17vw;
+    }
+    36%,68% {
+        top: -17vw;
+        opacity: 0;
+    }
+    69% {
+        top:  -37vw;
+        opacity: 0;
+    }
+
+    70%{
+        top:  -37vw;
+        opacity: 1;
+    }
+    75% {
+        opacity: 1;
+        top: -17vw;
+    }
+
+    75.1%{
+        opacity:0;
+        top: -37vw;
+    }
+    75.3%{
+        top: -37vw;
+        opacity: 1;
+    }
+    79% {
+        opacity: 1;
+        top: -17vw;
+    }
+    79.1%{
+        opacity:0;
+        top: -37vw;
+    }
+    79.3%{
+        top: -37vw;
+        opacity: 1;
+    }
+    83% {
+        opacity: 1;
+        top: -17vw;
+    }
+
+    84%,100% {
+        top: -17vw;
+        opacity: 0;
+    }
+}
+
+.GotaDeAgua8 {
     position: relative;
     height: 3vw;
     width: 3vw;
     top: -40vw;
     left: 19vw;
+    animation-name: g8;
+    animation-duration: 60s;
+    animation-iteration-count: infinite;
+    opacity: 0;
 }
-.GotaDeAgua9{
+
+@keyframes g8 {
+    0%,19% {
+        top: -40vw;
+        opacity: 0;
+    }
+
+    20%{
+        top: -40vw;
+        opacity: 1;
+    }
+    25% {
+        opacity: 1;
+        top: -20vw;
+    }
+
+    25.1%{
+        opacity:0;
+        top: -40vw;
+    }
+    25.3%{
+        top: -40vw;
+        opacity: 1;
+    }
+    31% {
+        opacity: 1;
+        top: -20vw;
+    }
+    31.1%{
+        opacity:2;
+        top: -40vw;
+    }
+    31.3%{
+        top: -40vw;
+        opacity: 1;
+    }
+    35% {
+        opacity: 1;
+        top: -20vw;
+    }
+    36%,68% {
+        top: -19vw;
+        opacity: 0;
+    }
+    69% {
+        top:  -39vw;
+        opacity: 0;
+    }
+
+    70%{
+        top:  -39vw;
+        opacity: 1;
+    }
+    75% {
+        opacity: 1;
+        top: -19vw;
+    }
+
+    75.1%{
+        opacity:0;
+        top: -39vw;
+    }
+    75.3%{
+        top: -39vw;
+        opacity: 1;
+    }
+    79% {
+        opacity: 1;
+        top: -19vw;
+    }
+    79.1%{
+        opacity:0;
+        top: -39vw;
+    }
+    79.3%{
+        top: -39vw;
+        opacity: 1;
+    }
+    83% {
+        opacity: 1;
+        top: -19vw;
+    }
+
+    84%,100% {
+        top: -19vw;
+        opacity: 0;
+    }
+}
+
+
+.GotaDeAgua9 {
     position: relative;
     height: 3vw;
     width: 3vw;
     top: -43vw;
     left: 21.5vw;
+    animation-name: g9;
+    animation-duration: 60s;
+    animation-iteration-count: infinite;
+    opacity: 0;
 }
 
-.GotaDeAgua10{
+@keyframes g9 {
+    0%,19% {
+        top: -43vw;
+        opacity: 0;
+    }
+
+    20%{
+        top: -43vw;
+        opacity: 1;
+    }
+    25% {
+        opacity: 1;
+        top: -23vw;
+    }
+
+    25.1%{
+        opacity:0;
+        top: -43vw;
+    }
+    25.3%{
+        top: -43vw;
+        opacity: 1;
+    }
+    31% {
+        opacity: 1;
+        top: -23vw;
+    }
+    31.1%{
+        opacity:2;
+        top: -43vw;
+    }
+    31.3%{
+        top: -43vw;
+        opacity: 1;
+    }
+    35% {
+        opacity: 1;
+        top: -23vw;
+    }
+    36%,68% {
+        top: -23vw;
+        opacity: 0;
+    }
+    69% {
+        top:  -43vw;
+        opacity: 0;
+    }
+
+    70%{
+        top:  -43vw;
+        opacity: 1;
+    }
+    75% {
+        opacity: 1;
+        top: -23vw;
+    }
+
+    75.1%{
+        opacity:0;
+        top: -43vw;
+    }
+    75.3%{
+        top: -43vw;
+        opacity: 1;
+    }
+    79% {
+        opacity: 1;
+        top: -23vw;
+    }
+    79.1%{
+        opacity:0;
+        top: -23vw;
+    }
+    79.3%{
+        top: -23vw;
+        opacity: 1;
+    }
+    83% {
+        opacity: 1;
+        top: -23vw;
+    }
+
+    84%,100% {
+        top: -23vw;
+        opacity: 0;
+    }
+}
+
+.GotaDeAgua10 {
     position: relative;
     height: 3vw;
     width: 3vw;
     top: -43vw;
-    left: 3vw;
+    left: 23vw;
+    animation-name: g10;
+    animation-duration: 60s;
+    animation-iteration-count: infinite;
+    opacity: 0;
 }
-.GotaDeAgua11{
+
+@keyframes g10 {
+    0%,19% {
+        top: -43vw;
+        opacity: 0;
+    }
+
+    20%{
+        top: -43vw;
+        opacity: 1;
+    }
+    25% {
+        opacity: 1;
+        top: -23vw;
+    }
+
+    25.1%{
+        opacity:0;
+        top: -43vw;
+    }
+    25.3%{
+        top: -43vw;
+        opacity: 1;
+    }
+    31% {
+        opacity: 1;
+        top: -23vw;
+    }
+    31.1%{
+        opacity:2;
+        top: -43vw;
+    }
+    31.3%{
+        top: -43vw;
+        opacity: 1;
+    }
+    35% {
+        opacity: 1;
+        top: -23vw;
+    }
+    36%,68% {
+        top: -23vw;
+        opacity: 0;
+    }
+    69% {
+        top:  -43vw;
+        opacity: 0;
+    }
+
+    70%{
+        top:  -43vw;
+        opacity: 1;
+    }
+    75% {
+        opacity: 1;
+        top: -23vw;
+    }
+
+    75.1%{
+        opacity:0;
+        top: -43vw;
+    }
+    75.3%{
+        top: -43vw;
+        opacity: 1;
+    }
+    79% {
+        opacity: 1;
+        top: -23vw;
+    }
+    79.1%{
+        opacity:0;
+        top: -23vw;
+    }
+    79.3%{
+        top: -23vw;
+        opacity: 1;
+    }
+    83% {
+        opacity: 1;
+        top: -23vw;
+    }
+
+    84%,100% {
+        top: -23vw;
+        opacity: 0;
+    }
+}
+
+.GotaDeAgua11 {
     position: relative;
     height: 3vw;
     width: 3vw;
     top: -46vw;
     left: 5.5vw;
+    animation-name: g11;
+    animation-duration: 60s;
+    animation-iteration-count: infinite;
+    opacity: 0;
 }
-.GotaDeAgua12{
+
+@keyframes g11 {
+    0%,19% {
+        top: -46vw;
+        opacity: 0;
+    }
+
+    20%{
+        top: -46vw;
+        opacity: 1;
+    }
+    25% {
+        opacity: 1;
+        top: -26vw;
+    }
+
+    25.1%{
+        opacity:0;
+        top: -46vw;
+    }
+    25.3%{
+        top: -46vw;
+        opacity: 1;
+    }
+    31% {
+        opacity: 1;
+        top: -26vw;
+    }
+    31.1%{
+        opacity:2;
+        top: -46vw;
+    }
+    31.3%{
+        top: -46vw;
+        opacity: 1;
+    }
+    35% {
+        opacity: 1;
+        top: -26vw;
+    }
+    36%,68% {
+        top: -26vw;
+        opacity: 0;
+    }
+    69% {
+        top:  -46vw;
+        opacity: 0;
+    }
+
+    70%{
+        top:  -46vw;
+        opacity: 1;
+    }
+    75% {
+        opacity: 1;
+        top: -26vw;
+    }
+
+    75.1%{
+        opacity:0;
+        top: -46vw;
+    }
+    75.3%{
+        top: -46vw;
+        opacity: 1;
+    }
+    79% {
+        opacity: 1;
+        top: -26vw;
+    }
+    79.1%{
+        opacity:0;
+        top: -26vw;
+    }
+    79.3%{
+        top: -26vw;
+        opacity: 1;
+    }
+    83% {
+        opacity: 1;
+        top: -26vw;
+    }
+
+    84%,100% {
+        top: -26vw;
+        opacity: 0;
+    }
+}
+
+.GotaDeAgua12 {
     position: relative;
     height: 3vw;
     width: 3vw;
     top: -49vw;
     left: 8vw;
+    animation-name: g12;
+    animation-duration: 60s;
+    animation-iteration-count: infinite;
+    opacity: 0;
 }
-.GotaDeAgua13{
+
+@keyframes g12 {
+    0%,19% {
+        top: -49vw;
+        opacity: 0;
+    }
+
+    20%{
+        top: -49vw;
+        opacity: 1;
+    }
+    25% {
+        opacity: 1;
+        top: -29vw;
+    }
+
+    25.1%{
+        opacity:0;
+        top: -49vw;
+    }
+    25.3%{
+        top: -49vw;
+        opacity: 1;
+    }
+    31% {
+        opacity: 1;
+        top: -29vw;
+    }
+    31.1%{
+        opacity:2;
+        top: -49vw;
+    }
+    31.3%{
+        top: -49vw;
+        opacity: 1;
+    }
+    35% {
+        opacity: 1;
+        top: -29vw;
+    }
+    36%,68% {
+        top: -29vw;
+        opacity: 0;
+    }
+    69% {
+        top:  -49vw;
+        opacity: 0;
+    }
+
+    70%{
+        top:  -49vw;
+        opacity: 1;
+    }
+    75% {
+        opacity: 1;
+        top: -29vw;
+    }
+
+    75.1%{
+        opacity:0;
+        top: -49vw;
+    }
+    75.3%{
+        top: -49vw;
+        opacity: 1;
+    }
+    79% {
+        opacity: 1;
+        top: -29vw;
+    }
+    79.1%{
+        opacity:0;
+        top: -29vw;
+    }
+    79.3%{
+        top: -29vw;
+        opacity: 1;
+    }
+    83% {
+        opacity: 1;
+        top: -29vw;
+    }
+
+    84%,100% {
+        top: -29vw;
+        opacity: 0;
+    }
+}
+
+
+
+.GotaDeAgua13 {
     position: relative;
     height: 3vw;
     width: 3vw;
     top: -52vw;
     left: 10.5vw;
+    animation-name: g13;
+    animation-duration: 60s;
+    animation-iteration-count: infinite;
+    opacity: 0;
 }
-.GotaDeAgua14{
+
+@keyframes g13 {
+    0%,19% {
+        top: -52vw;
+        opacity: 0;
+    }
+
+    20%{
+        top: -52vw;
+        opacity: 1;
+    }
+    25% {
+        opacity: 1;
+        top: -32vw;
+    }
+
+    25.1%{
+        opacity:0;
+        top: -52vw;
+    }
+    25.3%{
+        top: -52vw;
+        opacity: 1;
+    }
+    31% {
+        opacity: 1;
+        top: -32vw;
+    }
+    31.1%{
+        opacity:2;
+        top: -52vw;
+    }
+    31.3%{
+        top: -52vw;
+        opacity: 1;
+    }
+    35% {
+        opacity: 1;
+        top: -32vw;
+    }
+    36%,68% {
+        top: -32vw;
+        opacity: 0;
+    }
+    69% {
+        top:  -52vw;
+        opacity: 0;
+    }
+
+    70%{
+        top:  -52vw;
+        opacity: 1;
+    }
+    75% {
+        opacity: 1;
+        top: -32vw;
+    }
+
+    75.1%{
+        opacity:0;
+        top: -52vw;
+    }
+    75.3%{
+        top: -52vw;
+        opacity: 1;
+    }
+    79% {
+        opacity: 1;
+        top: -32vw;
+    }
+    79.1%{
+        opacity:0;
+        top: -32vw;
+    }
+    79.3%{
+        top: -32vw;
+        opacity: 1;
+    }
+    83% {
+        opacity: 1;
+        top: -32vw;
+    }
+
+    84%,100% {
+        top: -32vw;
+        opacity: 0;
+    }
+}
+
+.GotaDeAgua14 {
     position: relative;
     height: 3vw;
     width: 3vw;
     top: -55vw;
     left: 13vw;
+    animation-name: g14;
+    animation-duration: 60s;
+    animation-iteration-count: infinite;
+    opacity: 0;
 }
-.GotaDeAgua15{
+
+@keyframes g14 {
+    0%,19% {
+        top: -55vw;
+        opacity: 0;
+    }
+
+    20%{
+        top: -55vw;
+        opacity: 1;
+    }
+    25% {
+        opacity: 1;
+        top: -35vw;
+    }
+
+    25.1%{
+        opacity:0;
+        top: -55vw;
+    }
+    25.3%{
+        top: -55vw;
+        opacity: 1;
+    }
+    31% {
+        opacity: 1;
+        top: -35vw;
+    }
+    31.1%{
+        opacity:2;
+        top: -55vw;
+    }
+    31.3%{
+        top: -55vw;
+        opacity: 1;
+    }
+    35% {
+        opacity: 1;
+        top: -35vw;
+    }
+    36%,68% {
+        top: -35vw;
+        opacity: 0;
+    }
+    69% {
+        top:  -55vw;
+        opacity: 0;
+    }
+
+    70%{
+        top:  -55vw;
+        opacity: 1;
+    }
+    75% {
+        opacity: 1;
+        top: -35vw;
+    }
+
+    75.1%{
+        opacity:0;
+        top: -55vw;
+    }
+    75.3%{
+        top: -55vw;
+        opacity: 1;
+    }
+    79% {
+        opacity: 1;
+        top: -35vw;
+    }
+    79.1%{
+        opacity:0;
+        top: -35vw;
+    }
+    79.3%{
+        top: -35vw;
+        opacity: 1;
+    }
+    83% {
+        opacity: 1;
+        top: -35vw;
+    }
+
+    84%,100% {
+        top: -35vw;
+        opacity: 0;
+    }
+}
+
+
+.GotaDeAgua15 {
     position: relative;
     height: 3vw;
     width: 3vw;
     top: -58vw;
     left: 15.5vw;
+    animation-name: g15;
+    animation-duration: 60s;
+    animation-iteration-count: infinite;
+    opacity: 0;
 }
 
-.GotaDeAgua16{
+@keyframes g15 {
+    0%,19% {
+        top:  -58vw;
+        opacity: 0;
+    }
+
+    20%{
+        top:  -58vw;
+        opacity: 1;
+    }
+    25% {
+        opacity: 1;
+        top: -38vw;
+    }
+
+    25.1%{
+        opacity:0;
+        top: -58vw;
+    }
+    25.3%{
+        top: -58vw;
+        opacity: 1;
+    }
+    31% {
+        opacity: 1;
+        top: -38vw;
+    }
+    31.1%{
+        opacity:2;
+        top: -58vw;
+    }
+    31.3%{
+        top: -58vw;
+        opacity: 1;
+    }
+    35% {
+        opacity: 1;
+        top: -38vw;
+    }
+    36%,68% {
+        top: -38vw;
+        opacity: 0;
+    }
+    69% {
+        top:  -58vw;
+        opacity: 0;
+    }
+
+    70%{
+        top:  -58vw;
+        opacity: 1;
+    }
+    75% {
+        opacity: 1;
+        top: -38vw;
+    }
+
+    75.1%{
+        opacity:0;
+        top: -58vw;
+    }
+    75.3%{
+        top: -58vw;
+        opacity: 1;
+    }
+    79% {
+        opacity: 1;
+        top: -38vw;
+    }
+    79.1%{
+        opacity:0;
+        top: -38vw;
+    }
+    79.3%{
+        top: -38vw;
+        opacity: 1;
+    }
+    83% {
+        opacity: 1;
+        top: -38vw;
+    }
+
+    84%,100% {
+        top: -38vw;
+        opacity: 0;
+    }
+}
+
+
+.GotaDeAgua16 {
     position: relative;
     height: 3vw;
     width: 3vw;
     top: -61vw;
     left: 18vw;
-}.GotaDeAgua17{
+    animation-name: g16;
+    animation-duration: 60s;
+    animation-iteration-count: infinite;
+    opacity: 0;
+}
+
+@keyframes g16 {
+    0%,19% {
+        top:  -61vw;
+        opacity: 0;
+    }
+
+    20%{
+        top:  -61vw;
+        opacity: 1;
+    }
+    25% {
+        opacity: 1;
+        top: -41vw;
+    }
+
+    25.1%{
+        opacity:0;
+        top: -61vw;
+    }
+    25.3%{
+        top: -61vw;
+        opacity: 1;
+    }
+    31% {
+        opacity: 1;
+        top: -41vw;
+    }
+    31.1%{
+        opacity:2;
+        top: -61vw;
+    }
+    31.3%{
+        top: -61vw;
+        opacity: 1;
+    }
+    35% {
+        opacity: 1;
+        top: -41vw;
+    }
+    36%,68% {
+        top: -41vw;
+        opacity: 0;
+    }
+    69% {
+        top:  -61vw;
+        opacity: 0;
+    }
+
+    70%{
+        top:  -61vw;
+        opacity: 1;
+    }
+    75% {
+        opacity: 1;
+        top: -41vw;
+    }
+
+    75.1%{
+        opacity:0;
+        top: -61vw;
+    }
+    75.3%{
+        top: -61vw;
+        opacity: 1;
+    }
+    79% {
+        opacity: 1;
+        top: -41vw;
+    }
+    79.1%{
+        opacity:0;
+        top: -41vw;
+    }
+    79.3%{
+        top: -41vw;
+        opacity: 1;
+    }
+    83% {
+        opacity: 1;
+        top: -41vw;
+    }
+
+    84%,100% {
+        top: -41vw;
+        opacity: 0;
+    }
+}
+.GotaDeAgua17 {
     position: relative;
     height: 3vw;
     width: 3vw;
     top: -64vw;
     left: 20.5vw;
+    animation-name: g17;
+    animation-duration: 60s;
+    animation-iteration-count: infinite;
+    opacity: 0;
 }
 
+@keyframes g17 {
+    0%,19% {
+        top:  -64vw;
+        opacity: 0;
+    }
 
+    20%{
+        top:  -64vw;
+        opacity: 1;
+    }
+    25% {
+        opacity: 1;
+        top: -44vw;
+    }
 
+    25.1%{
+        opacity:0;
+        top: -64vw;
+    }
+    25.3%{
+        top: -64vw;
+        opacity: 1;
+    }
+    31% {
+        opacity: 1;
+        top: -44vw;
+    }
+    31.1%{
+        opacity:2;
+        top:-64vw;
+    }
+    31.3%{
+        top:-64vw;
+        opacity: 1;
+    }
+    35% {
+        opacity: 1;
+        top: -44vw;
+    }
+    36%,68% {
+        top: -44vw;
+        opacity: 0;
+    }
+    69% {
+        top:  -64vw;
+        opacity: 0;
+    }
+
+    70%{
+        top:  -64vw;
+        opacity: 1;
+    }
+    75% {
+        opacity: 1;
+        top: -44vw;
+    }
+
+    75.1%{
+        opacity:0;
+        top: -64vw;
+    }
+    75.3%{
+        top: -64vw;
+        opacity: 1;
+    }
+    79% {
+        opacity: 1;
+        top: -44vw;
+    }
+    79.1%{
+        opacity:0;
+        top: -44vw;
+    }
+    79.3%{
+        top: -44vw;
+        opacity: 1;
+    }
+    83% {
+        opacity: 1;
+        top: -44vw;
+    }
+
+    84%,100% {
+        top: -44vw;
+        opacity: 0;
+    }
+}
